@@ -1,2 +1,3 @@
 # Garrett's General Software Licenses
- A collection of software licenses
+
+This is a collection of software licenses I'm working on creating for my own projects.
