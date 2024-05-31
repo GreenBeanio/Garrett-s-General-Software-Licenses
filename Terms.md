@@ -1,8 +1,12 @@
 # Garrett's General Software Licenses
 
-## Terms
+# Provisions V.?.0
+
+## Categories of Provisions
 
 ### Permissions
+
+#### What you are allowed to do
 
 - [Commercial Use](#Commercial_Use)
 - [Donation](#Donation)
@@ -11,6 +15,8 @@
 - [Private Use](#Private_Use)
 
 ### Conditions
+
+#### What rules you must conform to
 
 - [Disclose Source](#Disclose_Source)
 - [License and Copyright Notice](#License_and_Copyright_Notice)
@@ -21,16 +27,18 @@
 
 ### Limitations
 
+#### Protection for the creators
+
 - [Liability](#Liability)
 - [Warranty](#Warranty)
 
 ---
 
-## Meanings
+## Provisions
 
 <h3 id="Commercial_Use">Commercial Use</h3>
 
-"Commercial Use" entails that the project and it's derivatives may be used for commercial purposes. "Commercial" meaning anything involving a monetary transaction of any kind.
+"Commercial Use" entails that the project may be used for commercial purposes. "Commercial" meaning anything involving a monetary, or other, transaction of any kind.
 
 Specifically, monetary transactions from a customer, consumer, end user, or entity to the person or entity providing this project, or using this project, to provide products or services to the customer, consumer, end user, or entity.
 
@@ -38,13 +46,13 @@ Transactions applicable to monetary transactions are also included, such as labo
 
 This provision explicitly allows a person or entity to use this project to provide a product or service to a customer, consumer, end user, or entity in exchange for something else.
 
-If this provision is not explicitly given it means that this project can not be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is given the customer, consumer, end user, or entity shall not be charged any monetary, or other costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
+If this provision is not explicitly given it means that this project can not be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is given the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
 
 <h3 id="Donation">Donation</h3>
 
-"Donation" allows for the providers of a product or service using this project to collect donations. These donations can be monetary or applicable transactions such as labor, advertising, or services.
+"Donation" allows for the providers of a product or service using this project to collect donations. These donations can be monetary or applicable transactions such as, but not limited to, labor, advertising, or services.
 
-A donation must not be required from the customer, consumer, end user, or entity to use the provided product or service using this project. A donation must also not give the customer, consumer, end user, or entity special privileges or access to the product or service using this project, that a non-donator would not have. Simply, donators and non-donators must be kept equal in all aspects.
+A donation must not be required from the customer, consumer, end user, or entity to use the provided product or service using this project. A donation must also not give the customer, consumer, end user, or entity special privileges or access to the product or service using this project that a non-donator would not have. Simply, donators and non-donators must be kept equal in all aspects.
 
 <h3 id="Distribution">Distribution</h3>
 
@@ -56,7 +64,12 @@ This also specifically includes having **multiple** users of the project. Such a
 
 <h3 id="Modification">Modification</h3>
 
-"Modification" means that this project, and it's constituent parts, may be changed or edited. This includes every element of the project.
+"Modification" means that this project, and it's constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed the project must be used as is.
+
+Any other project used in this project is subject to the provisions of its license, except modified parts of that project that are now using this license. Therefore there are two exceptions to this provision:
+
+1. If modification is not explicitly allowed in this project but an included project has a license allowing for modification then the items of this project from that project can be modified according to its license.
+2. If modification is explicitly allowed in this project but an included project has a license not allowing for modification then the items of this project from that project can not be modified according to its license.
 
 <h3 id="Private_Use">Private Use</h3>
 
@@ -64,7 +77,7 @@ This also specifically includes having **multiple** users of the project. Such a
 
 However, if using a local device, or version, of the project multiple users can use the project independently. Seeing as it's no different than if they were using their own version, or borrowing yours. This does not allow for distributing the project; that needs to be explicitly allowed in another provision.
 
-An exception to the sole user rule is if the project requires multiple users on a local device, or version, of the project. Such as, if a video game has local co-op. In that scenario the project can be used for "private use" by multiple users. Seeing as the other user does not get distributed a version, or copy, of the product to keep as their own. It was your local distribution, version, or copy of the project the entire time.
+An exception to the sole user rule is if the project requires or facilitates multiple users on a local device, or version, of the project. Such as, if a video game has local co-op. In that scenario the project can be used for "private use" by multiple users. Seeing as the other user does not get distributed a version, or copy, of the product to keep as their own. It was your local distribution, version, or copy of the project the entire time.
 
 "Private Use" is analogous to having a hammer. If I have a hammer I can use it to hammer nails. If my friend comes over they can pick up my hammer and hammer nails as well, but then I can't use the hammer anymore. "Distribution" is also analogous to me having a hammer. Except, when my friend comes over instead of me letting him use my hammer I duplicate the hammer and give him the duplicate. Then we both have hammers and can hammer nails.
 
@@ -72,7 +85,9 @@ An exception to the sole user rule is if the project requires multiple users on 
 
 "Disclose Source" means that when the project is distributed the source code must be made available.
 
-In the event that the entire source code is not distributed alongside the form distributed the end user must be made aware in some way that they are entitled access to it as well as where they can freely, easily, and readily receive it.
+In the event that the entire source code is not distributed alongside the form distributed the end user must be made aware, in some easily visible and navigable way, that they are entitled access to it as well as where they can freely, easily, and readily receive it.
+
+This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, a easily navigable page on a website, and a notice message confirmed by the user.
 
 <h3 id="License_and_Copyright_Notice">License and Copyright Notice</h3>
 
@@ -87,13 +102,22 @@ In the event that the project is distributed in its finished form, such as binar
 
 In the event that this project is remote, such as a website, these two items should be located in the finished form in an easy to discover and navigate area for the end user.
 
-Preferably, but not required, inside each file of the source code would be a comment header listing information about the copyright and the license.
+Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license.
 
-Preferably, but not required, a third items would be included consisting of two things. The fist being mentions to any and every other project used within this project, the license they use, and any other desired relevant information about them. The second being information about every author, copyright holder, maintainer, or any other party who modifies the project, such as their name, contact information, and what they did on the project. It is of upmost importance to give credit to the creators of what you use.
+Preferably, but not required, would be two other items included along side the required other two:
+
+1. Mentions to any and all other projects used within this project, the license they use, and any other desired relevant and/or required information about them.
+    - It is respectful to give credit to the projects that you used to create your project.
+    - Given that many projects have licenses requiring this information to be recorded it is always a good idea to include this information.
+
+2. Information about every author, copyright holder, maintainer, or any other party who modifies the project, such as their name, contact information, and what they did on the project.
+    - It is of upmost importance to give credit to the creators and maintainers of what you use.
+    - It would also be respectful to not include those who don't want their information published.
+    - However, due to the large and collaborative nature of many open-source projects this may not, and often will not, be feasible. In that case it would be respectful to at least give references to the key figures and the community in general.
 
 <h3 id="Network_Use_Is_Distribution">Network Use Is Distribution</h3>
 
-"Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, cloud, and as a service.
+"Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service.
 
 <h3 id="Same_License">Same License</h3>
 
@@ -104,6 +128,13 @@ Preferably, but not required, a third items would be included consisting of two 
 - Using this project as is.
 - Using this project as a component, such as a library, package, module, framework, platform, etc, in a new project.
 - Making modifications to this project, such as a modified fork.
+
+If other projects were also used as components in your project follow these rules:
+    1. If their license satisfies the provisions of this license:
+        1. If they allow for permissable licenses to be used then use this license.
+        2. If they don't allow for permissable licenses then either remove the other project as a component of your project, or remove this project as a component of your project. This license must be used for the entirety of your project. If the other project's license does not allow for permissable licenses it can not be used in this project alongside this project, even if the two licenses satisfy each other's provisions.
+    2. If their license does not satisfy the provisions of this license:
+        1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
 
 <h3 id="Existing_Project_Same_License">Existing Project Same License</h3>
 
@@ -118,13 +149,14 @@ Preferably, but not required, a third items would be included consisting of two 
 Exceptions can be made under the following situations:
 
 1. You keep the contents of the original project as this license.
-2. You use another license that is compliant and permissible with the provisions of this license for any modifications you made to this project as well as any new additions.
-3. If other projects were also used as components in your project include their licenses as required in their provisions alongside this license. If their license also requires your project to use their license do as follows.
-    1. If their license meets the same provisions as this license:
-        1. If they allow for permissable licenses to be used then use this license.
-        2. If they don't allow for permissable licenses to be used then use their license.
-    2. If their license does not meet the same provisions as this license:
-        1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
+2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
+    -original: 2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to this project as well as any new additions.
+3. If other projects were also used as components in your project include their licenses as required in their provisions alongside this license. If their license also requires your project to use their license do as follows:
+    1. If their license satisfies the provisions of this license:
+        1. If they allow for permissable licenses to be used use this license.
+        2. If they don't allow for permissable licenses to be used use their license.
+    2. If their license does not satisfy the provisions of this license:
+        1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't satisfy each other's license provisions.
 
 <h3 id="State_Changes">State Changes</h3>
 
