@@ -22,7 +22,8 @@
 - [License and Copyright Notice](#License_and_Copyright_Notice)
 - [Network Use Is Distribution](#Network_Use_Is_Distribution)
 - [Same License](#Same_License)
-- [Existing Project Same License](#Existing_Project_Same_License)
+- [Existing File Same License](#Existing_File_Same_License)
+- [Library Same License](#Library_Same_License)
 - [State Changes](#State_Changes)
 
 ### Limitations
@@ -126,8 +127,10 @@ Preferably, but not required, would be two other items included along side the r
 "Using this project" means:
 
 - Using this project as is.
-- Using this project as a component, such as a library, package, module, framework, platform, etc, in a new project.
-- Making modifications to this project, such as a modified fork.
+- Using this project as a component.
+  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Making modifications to this project.
+  - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
 If other projects were also used as components in your project follow these rules:
     1. If their license satisfies the provisions of this license:
@@ -136,27 +139,37 @@ If other projects were also used as components in your project follow these rule
     2. If their license does not satisfy the provisions of this license:
         1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
 
-<h3 id="Existing_Project_Same_License">Existing Project Same License</h3>
+<h3 id="Existing_File_Same_License">Existing File Same License</h3>
 
-"Existing Project Same License" means that when using this project your project must use the same license, but only for the original content of this project.
+"Existing File Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project.
 
 "Using this project" means:
 
 - Using this project as is.
-- Using this project as a component, such as a library, package, module, framework, platform, etc, in a new project.
-- Making modifications to this project, such as a modified fork.
+- Using this project as a component.
+  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Making modifications to this project.
+  - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
 Exceptions can be made under the following situations:
 
 1. You keep the contents of the original project as this license.
 2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
-    -original: 2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to this project as well as any new additions.
-3. If other projects were also used as components in your project include their licenses as required in their provisions alongside this license. If their license also requires your project to use their license do as follows:
+3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created from the original contents.
+    - This
+
+!!! I think this last fourth rule is actually bogus for this provision and use case !!!
+
+4. If other projects were also used as components in your project include their licenses as required in their provisions alongside this license. If their license also requires your project to use their license do as follows:
     1. If their license satisfies the provisions of this license:
         1. If they allow for permissable licenses to be used use this license.
         2. If they don't allow for permissable licenses to be used use their license.
     2. If their license does not satisfy the provisions of this license:
         1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't satisfy each other's license provisions.
+
+<h3 id="Library_Same_License">Library Same License</h3>
+
+!!! Implement as a subset of the above !!!
 
 <h3 id="State_Changes">State Changes</h3>
 
