@@ -23,7 +23,7 @@
 - [Network Use Is Distribution](#Network_Use_Is_Distribution)
 - [Same License](#Same_License)
 - [Existing File Same License](#Existing_File_Same_License)
-- [Library Same License](#Library_Same_License)
+- [Lesser Same License](#Lesser_Same_License)
 - [State Changes](#State_Changes)
 
 ### Limitations
@@ -59,7 +59,7 @@ A donation must not be required from the customer, consumer, end user, or entity
 
 "Distribution" means that the project may be distributed to others. This includes physical, digital, network, and any other form of distribution, including those yet to be created.
 
-"Distribution" is explicitly implied for every form of this project, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), it's remote form (such as a website, hosted, cloud, or as a service versions), and anything in between, or yet to be created.
+"Distribution" is explicitly implied for every form of this project, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions), and anything in between, or yet to be created.
 
 This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
 
@@ -156,7 +156,6 @@ Exceptions can be made under the following situations:
 1. You keep the contents of the original project as this license.
 2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
 3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created from the original contents.
-    - This
 
 !!! I think this last fourth rule is actually bogus for this provision and use case !!!
 
@@ -167,9 +166,31 @@ Exceptions can be made under the following situations:
     2. If their license does not satisfy the provisions of this license:
         1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't satisfy each other's license provisions.
 
-<h3 id="Library_Same_License">Library Same License</h3>
+<h3 id="Lesser_Same_License">Lesser Same License</h3>
 
-!!! Implement as a subset of the above !!!
+"Lesser Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project, and creations derived from the original content.
+
+"Using this project" means:
+
+- Using this project as is.
+- Using this project as a component.
+  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Making modifications to this project.
+  - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
+
+"Creations derived from the original content" means:
+
+- New creations that build directly on the original content of this project.
+
+"Creations derived from the original content" does not mean:
+
+- Calling interfaces or components from the original content of this project.
+
+Exceptions can be made under the following situations:
+
+1. You keep the contents of the original project as this license.
+2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
+3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created from the original contents.
 
 <h3 id="State_Changes">State Changes</h3>
 
