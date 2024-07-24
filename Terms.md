@@ -29,7 +29,8 @@
 | Patent Use | |
 | Distribution Final Form | |
 | Upgradability | |
-| Dual-Licensing | |
+| Multi-Licensing | |
+| Trademark Use | |
 
 ### Conditions
 
@@ -52,6 +53,8 @@
 |---|---|
 | Liability | |
 | Warranty | |
+| No Patent Use | |
+| No Trademark Use | |
 
 ## Categories of Provisions
 
@@ -67,7 +70,8 @@
 - [Patent Use](#Patent_Use)
 - [Distribution Final Form](#Distribution_Final)
 - [Upgradability](#Upgradability)
-- [Dual-Licensing](#DL)
+- [Multi-Licensing](#ML)
+- [Trademark Use](#TU)
 
 ### Conditions
 
@@ -90,6 +94,8 @@
 
 - [Liability](#Liability)
 - [Warranty](#Warranty)
+- [No Patent Use](#NPU)
+- [No Trademark Use](#NTU)
 
 ---
 
@@ -156,7 +162,7 @@ An exception to the sole user rule is if the project requires or facilitates mul
 
 <h3 id="Patent_Use">Patent Use</h3>
 
-When a contributor uses patent rights and claims that they hold in this project they grant everyone using this project the right to use those patent rights and claims in this project as well.
+When a contributor uses patent rights and claims that they hold in this project they grant everyone using this project the right to use those patent rights and claims in this project, and its derivatives, as well.
 
 <h3 id="Distribution_Final">Distribution Final Form</h3>
 
@@ -180,11 +186,15 @@ Unless the "Network Use Is Distribution" special provision is explicitly granted
 
 In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
-<h3 id="DL">Dual-Licensing</h3>
+<h3 id="ML">Multi-Licensing</h3>
 
-"Dual-Licensing" means that it is possible to release this project under two differing licenses and versions. Such as a Community version and a Commercial version.
+"Multi-Licensing" means that it is possible to release this project under multiple differing licenses and versions. Such as a Community version and a Commercial version.
 
-In order to for dual-licensing to be enacted all copyright owners must agree to the dual-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
+In order to for multi-licensing to be enacted all copyright owners must agree to the multi-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
+
+<h3 id="TU">Trademark Use</h3>
+
+This license grants permission to use names, trade names, trademarks, service marks, product marks, and/or logos of the Licensor and/or Contributors to endorse or promote creations derived from this project in regard to names, trade names, trademarks, service marks, product marks, and/or logos used in relation to this project and its derivatives.
 
 <h3 id="Disclose_Source">Disclose Source</h3>
 
@@ -388,6 +398,14 @@ In no event shall the authors, copyright holders, maintainers, or any other part
 
 This project is provided as is without warranty of any kind, either expressed or implied. This includes, but is not limited to, warranties of merchantability and fitness for a particular purpose. The entirety of risk, including but not limited to, quality and performance of the project is entirely with you. Should any problems or damages arise you assume all costs in connection with this project or its use.
 
+<h3 id="NPU">No Patent Use</h3>
+
+This license does not grant permission to use patents of the Licensor and/or Contributors unless explicitly given permission.
+
+<h3 id="NTU">No Trademark Use</h3>
+
+This license does not grant permission to use names, trade names, trademarks, service marks, product marks, and/or logos of the Licensor and/or Contributors to endorse or promote creations derived from this project without their explicit permission.
+
 ## Codes
 
 The code for the license is set up in the following sections:
@@ -407,11 +425,12 @@ The code is built in the following format:
 | Donation | Do |
 | Distribution | D |
 | Modification | M |
-| Private Use | Pa |
-| Patent Use | Pr |
+| Private Use | Pr |
+| Patent Use | Pa |
 | Distribution Final Form | Df |
 | Upgradability | U |
-| Dual-Licensing | Dl |
+| Multi-Licensing | Dl |
+| Trademark Use | T |
 
 | Condition | Code |
 |---|---|
@@ -430,8 +449,14 @@ The code is built in the following format:
 |---|---|
 | Liability | L |
 | Warranty | W |
+| No Patent Use | Pn |
+| No Trademark Use | Tn |
 
-## Details
+## License Generation Details
+
+The contents above this section pertain to the project as a whole and the license that it follows.
+
+The following section pertains only to the generation of the license itself. It does not pertain to the project as a whole or the license it follows.
 
 ### License Collection: Garrett's General Software Licenses
 
@@ -441,6 +466,8 @@ The code is built in the following format:
 
 ### Source: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
 
-### Preamble
-
 Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "Garrett's General Software Licenses".
+
+If any and all references to "Garrett's General Software Licenses" are removed everyone is permitted to modify, copy, distribute, publish, and use this license without restriction.
+
+The creator of this license shall in no event be held liable and/or held responsible for any claim or damage. This license is provided as is without warranty of any kind, either expressed or implied.

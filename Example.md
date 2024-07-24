@@ -29,7 +29,7 @@
 | Patent Use | No |
 | Distribution Final Form | No |
 | Upgradability | No |
-| Dual-Licensing | No |
+| Multi-Licensing | No |
 
 ### Conditions
 
@@ -67,7 +67,7 @@
 - [Patent Use](#Patent_Use)
 - [Distribution Final Form](#Distribution_Final)
 - [Upgradability](#Upgradability)
-- [Dual-Licensing](#DL)
+- [Multi-Licensing](#DL)
 
 ### Conditions
 
@@ -180,11 +180,11 @@ Unless the "Network Use Is Distribution" special provision is explicitly granted
 
 In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
-<h3 id="DL">Dual-Licensing</h3>
+<h3 id="DL">Multi-Licensing</h3>
 
-"Dual-Licensing" means that it is possible to release this project under two differing licenses and versions. Such as a Community version and a Commercial version.
+"Multi-Licensing" means that it is possible to release this project under multiple differing licenses and versions. Such as a Community version and a Commercial version.
 
-In order to for dual-licensing to be enacted all copyright owners must agree to the dual-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
+In order to for multi-licensing to be enacted all copyright owners must agree to the multi-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
 <h3 id="Disclose_Source">Disclose Source</h3>
 
@@ -411,7 +411,7 @@ The code is built in the following format:
 | Patent Use | Pa |
 | Distribution Final Form | Df |
 | Upgradability | U |
-| Dual-Licensing | Dl |
+| Multi-Licensing | Dl |
 
 | Condition | Code |
 |---|---|
