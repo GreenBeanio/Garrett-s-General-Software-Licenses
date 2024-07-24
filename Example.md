@@ -1,15 +1,19 @@
 
-# License: NAME
+# License: Garrett's Open License - Freedom+
+
+## License Family: Garrett's Open License
+
+## License: Freedom+
 
 ### Version: 1.0
 
-### Publication: Year/Date/Month
+### Publication: 2024/07/24
 
-### Code: XXX
+### Code: GOL-[C-D-M-Pr]-[Lc]-[L-W]
 
-### Creator: NAME
+### Creator: Garrett Johnson
 
-### Creator Contact
+### Creator Contact: <https://github.com/GreenBeanio/>
 
 ## Licenses Provisions
 
@@ -17,37 +21,37 @@
 
 | Permission | Contains |
 |---|---|
-| Commercial Use | |
-| Donation | |
-| Distribution | |
-| Modification | |
-| Private Use | |
-| Patent Use | |
-| Distribution Final Form | |
-| Upgradability | |
-| Dual-Licensing | |
+| Commercial Use | Yes |
+| Donation | No |
+| Distribution | Yes |
+| Modification | Yes |
+| Private Use | Yes |
+| Patent Use | No |
+| Distribution Final Form | No |
+| Upgradability | No |
+| Dual-Licensing | No |
 
 ### Conditions
 
 | Conditions | Contains |
 |---|---|
-| Disclose Source | |
-| License and Copyright Notice | |
-| License and Copyright Notice For Source | |
-| Network Use Is Distribution | |
-| Same License | |
-| Existing File Same License | |
-| Lesser Same License | |
-| State Changes | |
-| Hide Source | |
-| Contributor License Agreement | |
+| Disclose Source | No |
+| License and Copyright Notice | Yes |
+| License and Copyright Notice For Source | No |
+| Network Use Is Distribution | No |
+| Same License | No |
+| Existing File Same License | No |
+| Lesser Same License | No |
+| State Changes | No |
+| Hide Source | No |
+| Contributor License Agreement | No |
 
 ### Limitations
 
 | Limitations | Contains |
 |---|---|
-| Liability | |
-| Warranty | |
+| Liability | Yes |
+| Warranty | Yes |
 
 ## Categories of Provisions
 
@@ -403,8 +407,8 @@ The code is built in the following format:
 | Donation | Do |
 | Distribution | D |
 | Modification | M |
-| Private Use | Pa |
-| Patent Use | Pr |
+| Private Use | Pr |
+| Patent Use | Pa |
 | Distribution Final Form | Df |
 | Upgradability | U |
 | Dual-Licensing | Dl |
@@ -413,7 +417,7 @@ The code is built in the following format:
 |---|---|
 | Disclose Source | Ds |
 | License and Copyright Notice | Lc |
-| License and Copyright Notice For Source | Lc |
+| License and Copyright Notice For Source | Lcs |
 | Network Use Is Distribution | N |
 | Same License | Sl |
 | Existing File Same License | Sle |
