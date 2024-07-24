@@ -33,7 +33,7 @@
 
 ### Conditions
 
-| Conditions | Contains |
+| Condition | Contains |
 |---|---|
 | Disclose Source | |
 | License and Copyright Notice | |
@@ -48,7 +48,7 @@
 
 ### Limitations
 
-| Limitations | Contains |
+| Limitation | Contains |
 |---|---|
 | Liability | |
 | Warranty | |
@@ -413,7 +413,7 @@ The code is built in the following format:
 | Upgradability | U |
 | Dual-Licensing | Dl |
 
-| Conditions | Code |
+| Condition | Code |
 |---|---|
 | Disclose Source | Ds |
 | License and Copyright Notice | Lc |
@@ -426,7 +426,7 @@ The code is built in the following format:
 | Hide Source | H |
 | Contributor License Agreement | Cl |
 
-| Limitations | Code |
+| Limitation | Code |
 |---|---|
 | Liability | L |
 | Warranty | W |
