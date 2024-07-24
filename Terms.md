@@ -8,19 +8,19 @@
 
 #### What you are allowed to do
 
-- [Commercial Use](#Commercial_Use)
-- [Donation](#Donation)
-- [Distribution](#Distribution)
-- [Modification](#Modification)
-- [Private Use](#Private_Use)
+- [Commercial Use](#Commercial_Use) *
+- [Donation](#Donation) *
+- [Distribution](#Distribution) *X
+- [Modification](#Modification) X
+- [Private Use](#Private_Use) *
 
 ### Conditions
 
 #### What rules you must conform to
 
-- [Disclose Source](#Disclose_Source)
-- [License and Copyright Notice](#License_and_Copyright_Notice)
-- [Network Use Is Distribution](#Network_Use_Is_Distribution)
+- [Disclose Source](#Disclose_Source) *
+- [License and Copyright Notice](#License_and_Copyright_Notice) *X
+- [Network Use Is Distribution](#Network_Use_Is_Distribution) *X
 - [Same License](#Same_License)
 - [Existing File Same License](#Existing_File_Same_License)
 - [Lesser Same License](#Lesser_Same_License)
@@ -86,9 +86,9 @@ An exception to the sole user rule is if the project requires or facilitates mul
 
 "Disclose Source" means that when the project is distributed the source code must be made available.
 
-In the event that the entire source code is not distributed alongside the form distributed the end user must be made aware, in some easily visible and navigable way, that they are entitled access to it as well as where they can freely, easily, and readily receive it.
+In the event that the entire source code is not distributed alongside the form distributed to the end user they must be made aware, in some easily visible and navigable way, that they are entitled access to it, as well as where they can freely, easily, and readily receive it.
 
-This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, a easily navigable page on a website, and a notice message confirmed by the user.
+This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, a easily navigable page on a website, and a notice message confirmed by the user. How this source code is made available is up to your discretion. The preferred method would be to have it available to download from a public source.
 
 <h3 id="License_and_Copyright_Notice">License and Copyright Notice</h3>
 
@@ -103,7 +103,7 @@ In the event that the project is distributed in its finished form, such as binar
 
 In the event that this project is remote, such as a website, these two items should be located in the finished form in an easy to discover and navigate area for the end user.
 
-Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license.
+Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license. (**************** Give example ********)
 
 Preferably, but not required, would be two other items included along side the required other two:
 
@@ -115,10 +115,14 @@ Preferably, but not required, would be two other items included along side the r
     - It is of upmost importance to give credit to the creators and maintainers of what you use.
     - It would also be respectful to not include those who don't want their information published.
     - However, due to the large and collaborative nature of many open-source projects this may not, and often will not, be feasible. In that case it would be respectful to at least give references to the key figures and the community in general.
+  
+If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
 
 <h3 id="Network_Use_Is_Distribution">Network Use Is Distribution</h3>
 
 "Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service.
+
+(**** I believe the distribution needs to be reworded because this is a near useless provision given how it's currently written ***)
 
 <h3 id="Same_License">Same License</h3>
 
@@ -127,17 +131,18 @@ Preferably, but not required, would be two other items included along side the r
 "Using this project" means:
 
 - Using this project as is.
-- Using this project as a component.
-  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Using this project as a component or derivative work.
+  - Using as a component or derivative work includes use cases such as a library, package, module, framework, platform, etc, in a new project.
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
 If other projects were also used as components in your project follow these rules:
-    1. If their license satisfies the provisions of this license:
-        1. If they allow for permissable licenses to be used then use this license.
-        2. If they don't allow for permissable licenses then either remove the other project as a component of your project, or remove this project as a component of your project. This license must be used for the entirety of your project. If the other project's license does not allow for permissable licenses it can not be used in this project alongside this project, even if the two licenses satisfy each other's provisions.
-    2. If their license does not satisfy the provisions of this license:
-        1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
+
+  1. If their license satisfies the provisions of this license:
+      1. If they allow for permissible licenses to be used then use this license. While retaining a copy of the other projects' original license alongside it's files if required.
+      2. If they don't allow for permissible licenses then either remove the other project as a component of your project, or remove this project as a component of your project. This license must be used for the entirety of your project. If the other project's license does not allow for permissible licenses it can not be used in your project alongside this project, even if the two licenses satisfy each other's provisions.
+  2. If their license does not satisfy the provisions of this license:
+     1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
 
 <h3 id="Existing_File_Same_License">Existing File Same License</h3>
 
@@ -146,25 +151,19 @@ If other projects were also used as components in your project follow these rule
 "Using this project" means:
 
 - Using this project as is.
-- Using this project as a component.
-  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Using this project as a component or derivative work.
+  - Using as a component or derivative work includes use cases such as a library, package, module, framework, platform, etc, in a new project.
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
+
+**** I don't know about the stuff below maybe allowing other licenses to be used could be a bad idea. Some tricksters might try and take advantage of that *****
 
 Exceptions can be made under the following situations:
 
 1. You keep the contents of the original project as this license.
-2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
-3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created from the original contents.
+2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project. While also retaining a copy of this license if a license and copyright notice is required for this license.
 
-!!! I think this last fourth rule is actually bogus for this provision and use case !!!
-
-4. If other projects were also used as components in your project include their licenses as required in their provisions alongside this license. If their license also requires your project to use their license do as follows:
-    1. If their license satisfies the provisions of this license:
-        1. If they allow for permissable licenses to be used use this license.
-        2. If they don't allow for permissable licenses to be used use their license.
-    2. If their license does not satisfy the provisions of this license:
-        1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't satisfy each other's license provisions.
+If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="Lesser_Same_License">Lesser Same License</h3>
 
@@ -173,24 +172,23 @@ Exceptions can be made under the following situations:
 "Using this project" means:
 
 - Using this project as is.
-- Using this project as a component.
-  - Using as a component includes uses such as a library, package, module, framework, platform, etc, in a new project.
+- Using this project as a component or derivative work.
+  - Using as a component or derivative work includes use cases such as a library, package, module, framework, platform, etc, in a new project.
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-"Creations derived from the original content" means:
-
-- New creations that build directly on the original content of this project.
-
-"Creations derived from the original content" does not mean:
-
-- Calling interfaces or components from the original content of this project.
+**** I don't know about the stuff below maybe allowing other licenses to be used could be a bad idea. Some tricksters might try and take advantage of that *****
 
 Exceptions can be made under the following situations:
 
 1. You keep the contents of the original project as this license.
-2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project.
-3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created from the original contents.
+2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project. While also retaining a copy of this license if a license and copyright notice is required for this license.
+3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created or derived from the original contents. While also retaining a copy of this license if a license and copyright notice is required for this license.
+    1. In this context created or derived means building upon this project directly. Not using or calling this project inside of your project.
+        - Adding a new function, interface, component, classes, etc. to this project that builds upon this project would count as being created or derived in this context.
+        - Calling functions, interfaces, components, classes, etc. from this project from somewhere else in your project would not count as being created or derived in this context.
+
+If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="State_Changes">State Changes</h3>
 
