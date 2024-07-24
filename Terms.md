@@ -8,23 +8,26 @@
 
 #### What you are allowed to do
 
-- [Commercial Use](#Commercial_Use) *
-- [Donation](#Donation) *
-- [Distribution](#Distribution) *X
-- [Modification](#Modification) X
-- [Private Use](#Private_Use) *
+- [Commercial Use](#Commercial_Use)
+- [Donation](#Donation)
+- [Distribution](#Distribution)
+- [Modification](#Modification)
+- [Private Use](#Private_Use)
+- [Patent Use](#Patent_Use)
+- [Distribution Final Form](#Distribution_Final)
 
 ### Conditions
 
 #### What rules you must conform to
 
-- [Disclose Source](#Disclose_Source) *
-- [License and Copyright Notice](#License_and_Copyright_Notice) *X
-- [Network Use Is Distribution](#Network_Use_Is_Distribution) *X
+- [Disclose Source](#Disclose_Source)
+- [License and Copyright Notice](#License_and_Copyright_Notice)
+- [Network Use Is Distribution](#Network_Use_Is_Distribution)
 - [Same License](#Same_License)
 - [Existing File Same License](#Existing_File_Same_License)
 - [Lesser Same License](#Lesser_Same_License)
 - [State Changes](#State_Changes)
+- [Hide Source](#Hide_Source)
 
 ### Limitations
 
@@ -65,9 +68,9 @@ This also specifically includes having **multiple** users of the project. Such a
 
 <h3 id="Modification">Modification</h3>
 
-"Modification" means that this project, and it's constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed the project must be used as is.
+"Modification" means that this project, and it's constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed this project must be used as is.
 
-Any other project used in this project is subject to the provisions of its license, except modified parts of that project that are now using this license. Therefore there are two exceptions to this provision:
+Any other project used in this project is subject to the provisions of its license. Therefore there are two exceptions to this provision:
 
 1. If modification is not explicitly allowed in this project but an included project has a license allowing for modification then the items of this project from that project can be modified according to its license.
 2. If modification is explicitly allowed in this project but an included project has a license not allowing for modification then the items of this project from that project can not be modified according to its license.
@@ -82,6 +85,18 @@ An exception to the sole user rule is if the project requires or facilitates mul
 
 "Private Use" is analogous to having a hammer. If I have a hammer I can use it to hammer nails. If my friend comes over they can pick up my hammer and hammer nails as well, but then I can't use the hammer anymore. "Distribution" is also analogous to me having a hammer. Except, when my friend comes over instead of me letting him use my hammer I duplicate the hammer and give him the duplicate. Then we both have hammers and can hammer nails.
 
+<h3 id="Patent_Use">Patent Use</h3>
+
+When a contributor uses patent rights and claims that they hold in this project they grant everyone using this project the right to use those patent rights and claims in this project as well.
+
+<h3 id="Distribution_Final">Distribution Final Form</h3>
+
+"Distribution Final Form" is a special form of distribution that means that the project may be distributed to others only in its final forms.
+
+"Distribution Final Form" is explicitly implied for every final form of this project, this includes, but is not limited to, it's finished form (such as binaries, executables, compiled forms, etc.), and it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions). This provision explicitly doesn't allow distribution in the raw forms (such as source code).
+
+This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
+
 <h3 id="Disclose_Source">Disclose Source</h3>
 
 "Disclose Source" means that when the project is distributed the source code must be made available.
@@ -92,7 +107,7 @@ This "easily visible and navigable way" can be any method that meshes well with 
 
 <h3 id="License_and_Copyright_Notice">License and Copyright Notice</h3>
 
-"License and Copyright Notice" means that the following should be included when this project is distributed in every form, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), it's remote form (such as a website, hosted, cloud, or as a service versions), and anything in between, or yet to be created:
+"License and Copyright Notice" means that the following should be included when this project is distributed:
 
 - A copy of this license.
 - A mention of this project, the license it uses, and any other desired relevant information.
@@ -103,7 +118,23 @@ In the event that the project is distributed in its finished form, such as binar
 
 In the event that this project is remote, such as a website, these two items should be located in the finished form in an easy to discover and navigate area for the end user.
 
-Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license. (**************** Give example ********)
+Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license. How this is implemented would be up to you. An example would be:
+
+---
+
+This file is part of [<u>Project Name</u>] [(<u>link to website, source code, or repository</u>)].
+
+Copyright (c) [<u>Year/Month/Date</u>] [<u>File Creator Name, Foundation Name, or Company Name</u>]
+
+This program is under the terms of the [<u>License Name</u>].
+
+You should have received a copy of the [<u>License Name</u>] along with this program. If not, see [(<u>link to the license</u>)].
+
+[<u>Small description about what this project does</u>]
+
+[<u>Small description about what this file does</u>]
+
+---
 
 Preferably, but not required, would be two other items included along side the required other two:
 
@@ -122,7 +153,7 @@ If it is too cumbersome to add these two additional items the commit history, or
 
 "Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service.
 
-(**** I believe the distribution needs to be reworded because this is a near useless provision given how it's currently written ***)
+This provision is a special provision that adds additional context to the "Distribution" and "Distribution Final Form" provisions. Unless this provision is explicitly given being "over a network" does not count as distribution. Meaning that any "over a network" activities would not count as distribution and not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if this provision is not explicitly given.
 
 <h3 id="Same_License">Same License</h3>
 
@@ -156,18 +187,15 @@ If other projects were also used as components in your project follow these rule
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-**** I don't know about the stuff below maybe allowing other licenses to be used could be a bad idea. Some tricksters might try and take advantage of that *****
-
-Exceptions can be made under the following situations:
-
-1. You keep the contents of the original project as this license.
-2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project. While also retaining a copy of this license if a license and copyright notice is required for this license.
-
 If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="Lesser_Same_License">Lesser Same License</h3>
 
 "Lesser Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project, and creations derived from the original content.
+
+In this context created or derived means building upon this project directly. Not using or calling this project inside of your project.
+      - Adding a new function, interface, component, classes, etc. to this project that builds upon this project would count as being created or derived in this context.
+      - Calling functions, interfaces, components, classes, etc. from this project from somewhere else in your project would not count as being created or derived in this context.
 
 "Using this project" means:
 
@@ -177,28 +205,29 @@ If other projects were also used as components in your project it's important th
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-**** I don't know about the stuff below maybe allowing other licenses to be used could be a bad idea. Some tricksters might try and take advantage of that *****
-
-Exceptions can be made under the following situations:
-
-1. You keep the contents of the original project as this license.
-2. You use another license that is compliant, permissible, and satisfies the provisions of this license for any modifications you made to the original contents of this project. While also retaining a copy of this license if a license and copyright notice is required for this license.
-3. You use another license that is compliant, permissible, and satisfies the provisions of this license for any new additions made to this project, outside of the original contents, that is created or derived from the original contents. While also retaining a copy of this license if a license and copyright notice is required for this license.
-    1. In this context created or derived means building upon this project directly. Not using or calling this project inside of your project.
-        - Adding a new function, interface, component, classes, etc. to this project that builds upon this project would count as being created or derived in this context.
-        - Calling functions, interfaces, components, classes, etc. from this project from somewhere else in your project would not count as being created or derived in this context.
-
 If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="State_Changes">State Changes</h3>
 
 "State Changes" requires that any changes made to the project must be documented. The method to document these changes should be stored with the source code.
 
-Preferably, this documentation would be stored in the source code itself. The verbose approach would be adding the date, author of the modification, if desired contact information, and if desired comment explaining the modification to sections modified. The brief approach would be to make an addition to a header comment including the date, the author of the modification, if desired contact information, and if desired a comment about the modification.
+Preferably, this documentation would be stored in the source code itself. The verbose approach would be adding the date, author of the modification, if desired contact information, and if desired comment explaining the modification to sections modified. The brief approach would be to make an addition to a header comment, or add a comment by the changes, including the date, the author of the modification, if desired contact information, and if desired a comment about the modification. An example section added to the header comment is:
+
+---
+
+Changes to this file have been made as follows:
+
+[<u>Year/Month/Day</u>] [<u>Author Name</u>] [<u>Brief description of the change</u>].
+
+---
 
 Version control will be accepted, but is not preferred. This is because it can easily be separated from the source code itself. An end user downloading the source code will likely not clone the repository and thusly not have access to the commit history of modifications.
 
 Another approach would be a dedicated document listing the modification information. However, this is the most intensive for the maintainers and is not expected.
+
+<h3 id="Hide_Source">Hide Source</h3>
+
+"Hide Source" means that when the project is distributed the source code must **NOT** be made available or included.
 
 <h3 id="Liability">Liability</h3>
 
