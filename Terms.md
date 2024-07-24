@@ -1,5 +1,9 @@
 
-# License: NAME
+# License: FAMILY NAME
+
+## License Family: FAMILY
+
+## License Name: NAME
 
 ### Version: 1.0
 

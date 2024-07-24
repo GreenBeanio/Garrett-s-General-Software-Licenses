@@ -3,7 +3,7 @@
 
 ## License Family: Garrett's Open License
 
-## License: Freedom+
+## License Name: Freedom+
 
 ### Version: 1.0
 
