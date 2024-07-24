@@ -1,6 +1,6 @@
 # Garrett's General Software Licenses
 
-# Provisions V.?.0
+# V.?.0
 
 ## Categories of Provisions
 
@@ -15,6 +15,8 @@
 - [Private Use](#Private_Use)
 - [Patent Use](#Patent_Use)
 - [Distribution Final Form](#Distribution_Final)
+- [Upgradability](#Upgradability)
+- [Dual-Licensing](#DL)
 
 ### Conditions
 
@@ -28,6 +30,7 @@
 - [Lesser Same License](#Lesser_Same_License)
 - [State Changes](#State_Changes)
 - [Hide Source](#Hide_Source)
+- [Contributor License Agreement](#CLA)
 
 ### Limitations
 
@@ -37,6 +40,12 @@
 - [Warranty](#Warranty)
 
 ---
+
+## Disclaimer
+
+Any contributor to this project automatically agrees irrevocably and perpetually to license their contribution and copyrighted material under the current license of this project at time of contribution.
+
+Any changes to the license are not retroactive and will only affect future releases and contributions. All previous contributions are still available under the license the contributor and copyright owner agreed to at the time of contributions. Meaning that a fork, copy, or new project can be formed using the former license, according to the provisions of that license.
 
 ## Provisions
 
@@ -50,7 +59,7 @@ Transactions applicable to monetary transactions are also included, such as labo
 
 This provision explicitly allows a person or entity to use this project to provide a product or service to a customer, consumer, end user, or entity in exchange for something else.
 
-If this provision is not explicitly given it means that this project can not be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is given the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
+If this provision is not explicitly granted it means that this project can not be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is granted the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
 
 <h3 id="Donation">Donation</h3>
 
@@ -64,7 +73,15 @@ A donation must not be required from the customer, consumer, end user, or entity
 
 "Distribution" is explicitly implied for every form of this project, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions), and anything in between, or yet to be created.
 
+"Raw forms" being any forms that the customer, consumer, end user, or entity can use to build another form, usually the finished form.
+
+"Finished forms" being any forms that are given to the customer, consumer, end user, or entity in their entire, full, or complete forms.
+
+"Remote forms" being any forms that provide a customer, consumer, end user, or entity access, without necessarily giving the full work in a complete physical, digital, or other form.
+
 This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
+
+Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regards to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
 
 <h3 id="Modification">Modification</h3>
 
@@ -95,7 +112,27 @@ When a contributor uses patent rights and claims that they hold in this project 
 
 "Distribution Final Form" is explicitly implied for every final form of this project, this includes, but is not limited to, it's finished form (such as binaries, executables, compiled forms, etc.), and it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions). This provision explicitly doesn't allow distribution in the raw forms (such as source code).
 
+"Raw forms" being any forms that the customer, consumer, end user, or entity can use to build another form, usually the finished form.
+
+"Finished forms" being any forms that are given to the customer, consumer, end user, or entity in their entire, full, or complete forms.
+
+"Remote forms" being any forms that provide a customer, consumer, end user, or entity access, without necessarily giving the full work in a complete physical, digital, or other form.
+
 This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
+
+Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regards to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
+
+<h3 id="Upgradability">Upgradability</h3>
+
+"Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to the new version.
+
+In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
+
+<h3 id="DL">Dual-Licensing</h3>
+
+"Dual-Licensing" means that it is possible to release this project under two differing licenses and versions. Such as an Community version and a Commercial version.
+
+In order to for dual-licensing to be enacted all copyright owners must agree to the dual-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
 <h3 id="Disclose_Source">Disclose Source</h3>
 
@@ -151,9 +188,9 @@ If it is too cumbersome to add these two additional items the commit history, or
 
 <h3 id="Network_Use_Is_Distribution">Network Use Is Distribution</h3>
 
-"Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service.
+"Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service. Any form that exists to provide a customer, consumer, end user, or entity access without having to provide the entire or full work in a complete physical, digital, or other form.
 
-This provision is a special provision that adds additional context to the "Distribution" and "Distribution Final Form" provisions. Unless this provision is explicitly given being "over a network" does not count as distribution. Meaning that any "over a network" activities would not count as distribution and not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if this provision is not explicitly given.
+This provision is a special provision that adds additional context to the "Distribution" and "Distribution Final Form" provisions. Unless this provision is explicitly granted being "over a network" does not count as "Distribution". Meaning that any "over a network" activities would not count as "Distribution" and not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if this provision is not explicitly granted.
 
 <h3 id="Same_License">Same License</h3>
 
@@ -228,6 +265,24 @@ Another approach would be a dedicated document listing the modification informat
 <h3 id="Hide_Source">Hide Source</h3>
 
 "Hide Source" means that when the project is distributed the source code must **NOT** be made available or included.
+
+<h3 id="CLA">Contributor License Agreement</h3>
+
+By contributing to this project you agree to a "Contributor License Agreement". This licenses consists of the following:
+
+1. Granting irrevocable and perpetual rights to the Project Owner, Foundation, or Entity to make and distribute copies of your contributions to this project.
+2. Granting irrevocable and perpetual rights to the Project Owner, Foundation, or Entity to create and distribute collective works and derivative works of any contribution to this project.
+3. Granting the above irrevocable and perpetual rights to the Project Owner, Foundation, or Entity under any license decided by them.
+
+The contributor should also identify their contributions to the project in the source code by adding the following comment to their contributions:
+
+---
+
+Changes to this file have been made as follows:
+
+[<u>Year/Month/Day</u>] [<u>Author Name</u>] Licensed to [<u>Project Name</u>] under a Contributor License Agreement. [<u>Brief description of the change</u>].
+
+---
 
 <h3 id="Liability">Liability</h3>
 
