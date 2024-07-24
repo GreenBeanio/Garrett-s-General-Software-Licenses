@@ -51,7 +51,7 @@ Any changes to the license are not retroactive and will only affect future relea
 
 <h3 id="Commercial_Use">Commercial Use</h3>
 
-"Commercial Use" entails that the project may be used for commercial purposes. "Commercial" meaning anything involving a monetary, or other, transaction of any kind.
+"Commercial Use" means that the project may be used for commercial purposes. "Commercial" meaning anything involving a monetary, or other, transaction of any kind.
 
 Specifically, monetary transactions from a customer, consumer, end user, or entity to the person or entity providing this project, or using this project, to provide products or services to the customer, consumer, end user, or entity.
 
@@ -59,13 +59,13 @@ Transactions applicable to monetary transactions are also included, such as labo
 
 This provision explicitly allows a person or entity to use this project to provide a product or service to a customer, consumer, end user, or entity in exchange for something else.
 
-If this provision is not explicitly granted it means that this project can not be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is granted the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
+If this provision is not explicitly granted it means that this project cannot be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is granted the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put, if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
 
 <h3 id="Donation">Donation</h3>
 
 "Donation" allows for the providers of a product or service using this project to collect donations. These donations can be monetary or applicable transactions such as, but not limited to, labor, advertising, or services.
 
-A donation must not be required from the customer, consumer, end user, or entity to use the provided product or service using this project. A donation must also not give the customer, consumer, end user, or entity special privileges or access to the product or service using this project that a non-donator would not have. Simply, donators and non-donators must be kept equal in all aspects.
+A donation must not be required from the customer, consumer, end user, or entity to use the provided product or service using this project. A donation must also not give the customer, consumer, end user, or entity special privileges or access to the product or service using this project that a non-donator would not have. Simply put, donators and non-donators must be kept equal in all aspects.
 
 <h3 id="Distribution">Distribution</h3>
 
@@ -81,26 +81,26 @@ A donation must not be required from the customer, consumer, end user, or entity
 
 This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
 
-Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regards to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
+Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regard to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
 
 <h3 id="Modification">Modification</h3>
 
-"Modification" means that this project, and it's constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed this project must be used as is.
+"Modification" means that this project, and its constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed this project must be used as is.
 
-Any other project used in this project is subject to the provisions of its license. Therefore there are two exceptions to this provision:
+Any other project used in this project is subject to the provisions of its license. Therefore, there are two exceptions to this provision:
 
 1. If modification is not explicitly allowed in this project but an included project has a license allowing for modification then the items of this project from that project can be modified according to its license.
-2. If modification is explicitly allowed in this project but an included project has a license not allowing for modification then the items of this project from that project can not be modified according to its license.
+2. If modification is explicitly allowed in this project but an included project has a license not allowing for modification then the items of this project from that project cannot be modified according to its license.
 
 <h3 id="Private_Use">Private Use</h3>
 
-"Private Use" entails using the project for personal use. "Personal Use" meaning you are the **sole** user of the project. Specifically, that there is a sole user of this distinct distribution, version, or copy of the project at any given time.
+"Private Use" entails using the project for personal use. "Personal Use" meaning you are the **sole** user of the project. Specifically, that there is a sole user of this distinct distribution, version or copy of the project at any given time.
 
-However, if using a local device, or version, of the project multiple users can use the project independently. Seeing as it's no different than if they were using their own version, or borrowing yours. This does not allow for distributing the project; that needs to be explicitly allowed in another provision.
+However, if using a local device, or version, of the project multiple users can use the project independently. Seeing as it's no different than if they were using their own version or borrowing yours. This does not allow for distributing the project; that needs to be explicitly allowed in another provision.
 
 An exception to the sole user rule is if the project requires or facilitates multiple users on a local device, or version, of the project. Such as, if a video game has local co-op. In that scenario the project can be used for "private use" by multiple users. Seeing as the other user does not get distributed a version, or copy, of the product to keep as their own. It was your local distribution, version, or copy of the project the entire time.
 
-"Private Use" is analogous to having a hammer. If I have a hammer I can use it to hammer nails. If my friend comes over they can pick up my hammer and hammer nails as well, but then I can't use the hammer anymore. "Distribution" is also analogous to me having a hammer. Except, when my friend comes over instead of me letting him use my hammer I duplicate the hammer and give him the duplicate. Then we both have hammers and can hammer nails.
+"Private Use" is analogous to having a hammer. If I have a hammer, I can use it to hammer nails. If my friend comes over, they can pick up my hammer and hammer nails as well, but then I can't use the hammer anymore. "Distribution" is also analogous to me having a hammer. Except, when my friend comes over instead of me letting him use my hammer, I duplicate the hammer and give him the duplicate. Then we both have hammers and can hammer nails.
 
 <h3 id="Patent_Use">Patent Use</h3>
 
@@ -120,7 +120,7 @@ When a contributor uses patent rights and claims that they hold in this project 
 
 This also specifically includes having **multiple** users of the project. Such as a piece of hosted software that multiple users connect to over networks.
 
-Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regards to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
+Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regard to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
 
 <h3 id="Upgradability">Upgradability</h3>
 
@@ -130,7 +130,7 @@ In order to upgrade the license all copyright owners must agree to upgrade the v
 
 <h3 id="DL">Dual-Licensing</h3>
 
-"Dual-Licensing" means that it is possible to release this project under two differing licenses and versions. Such as an Community version and a Commercial version.
+"Dual-Licensing" means that it is possible to release this project under two differing licenses and versions. Such as a Community version and a Commercial version.
 
 In order to for dual-licensing to be enacted all copyright owners must agree to the dual-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
@@ -140,7 +140,7 @@ In order to for dual-licensing to be enacted all copyright owners must agree to 
 
 In the event that the entire source code is not distributed alongside the form distributed to the end user they must be made aware, in some easily visible and navigable way, that they are entitled access to it, as well as where they can freely, easily, and readily receive it.
 
-This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, a easily navigable page on a website, and a notice message confirmed by the user. How this source code is made available is up to your discretion. The preferred method would be to have it available to download from a public source.
+This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, an easily navigable page on a website, and a notice message confirmed by the user. How this source code is made available is up to your discretion. The preferred method would be to have it available to download from a public source.
 
 <h3 id="License_and_Copyright_Notice">License and Copyright Notice</h3>
 
@@ -173,7 +173,7 @@ You should have received a copy of the [<u>License Name</u>] along with this pro
 
 ---
 
-Preferably, but not required, would be two other items included along side the required other two:
+Preferably, but not required, would be two other items included alongside the required other two:
 
 1. Mentions to any and all other projects used within this project, the license they use, and any other desired relevant and/or required information about them.
     - It is respectful to give credit to the projects that you used to create your project.
@@ -181,7 +181,7 @@ Preferably, but not required, would be two other items included along side the r
 
 2. Information about every author, copyright holder, maintainer, or any other party who modifies the project, such as their name, contact information, and what they did on the project.
     - It is of upmost importance to give credit to the creators and maintainers of what you use.
-    - It would also be respectful to not include those who don't want their information published.
+    - It would also be respectful not to include those who don't want their information published.
     - However, due to the large and collaborative nature of many open-source projects this may not, and often will not, be feasible. In that case it would be respectful to at least give references to the key figures and the community in general.
   
 If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
@@ -204,13 +204,13 @@ This provision is a special provision that adds additional context to the "Distr
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-If other projects were also used as components in your project follow these rules:
+If other projects were also used as components in your project, follow these rules:
 
   1. If their license satisfies the provisions of this license:
-      1. If they allow for permissible licenses to be used then use this license. While retaining a copy of the other projects' original license alongside it's files if required.
-      2. If they don't allow for permissible licenses then either remove the other project as a component of your project, or remove this project as a component of your project. This license must be used for the entirety of your project. If the other project's license does not allow for permissible licenses it can not be used in your project alongside this project, even if the two licenses satisfy each other's provisions.
+      1. If they allow permissible licenses to be used then use this license. While retaining a copy of the other projects' original license alongside it's files if required.
+      2. If they don't allow for permissible licenses then either remove the other project as a component of your project or remove this project as a component of your project. This license must be used for the entirety of your project. If the other project's license does not allow for permissible licenses, it cannot be used in your project alongside this project, even if the two licenses satisfy each other's provisions.
   2. If their license does not satisfy the provisions of this license:
-     1. Remove the other project as a component of your project, or remove this project as a component of your project. Both projects can not be used if they don't share the same license provisions.
+     1. Remove the other project as a component of your project or remove this project as a component of your project. Both projects cannot be used if they don't share the same license provisions.
 
 <h3 id="Existing_File_Same_License">Existing File Same License</h3>
 
@@ -224,7 +224,7 @@ If other projects were also used as components in your project follow these rule
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
+If other projects were also used as components in your project, it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="Lesser_Same_License">Lesser Same License</h3>
 
@@ -242,7 +242,7 @@ In this context created or derived means building upon this project directly. No
 - Making modifications to this project.
   - Modifications are any actions that involve addition, deletion, and/or changing of the contents from the original project.
 
-If other projects were also used as components in your project it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
+If other projects were also used as components in your project, it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
 <h3 id="State_Changes">State Changes</h3>
 
@@ -258,7 +258,7 @@ Changes to this file have been made as follows:
 
 ---
 
-Version control will be accepted, but is not preferred. This is because it can easily be separated from the source code itself. An end user downloading the source code will likely not clone the repository and thusly not have access to the commit history of modifications.
+Version control will be accepted but is not preferred. This is because it can easily be separated from the source code itself. An end user downloading the source code will likely not clone the repository and thus not have access to the commit history of modifications.
 
 Another approach would be a dedicated document listing the modification information. However, this is the most intensive for the maintainers and is not expected.
 
@@ -268,7 +268,7 @@ Another approach would be a dedicated document listing the modification informat
 
 <h3 id="CLA">Contributor License Agreement</h3>
 
-By contributing to this project you agree to a "Contributor License Agreement". This licenses consists of the following:
+By contributing to this project, you agree to a "Contributor License Agreement". This license consists of the following:
 
 1. Granting irrevocable and perpetual rights to the Project Owner, Foundation, or Entity to make and distribute copies of your contributions to this project.
 2. Granting irrevocable and perpetual rights to the Project Owner, Foundation, or Entity to create and distribute collective works and derivative works of any contribution to this project.
@@ -294,4 +294,4 @@ In no event shall the authors, copyright holders, maintainers, or any other part
 
 "Warranty" means as follows:
 
-This project is provided as is without warranty of any kind, either expressed or implied. This includes, but is not limited to, warranties of merchantability and fitness for a particular purpose. The entirety of risk, including but not limited to, quality and performance of the project is entirely with you. Should any problems or damages arise you assume all costs in connection to the project or its use.
+This project is provided as is without warranty of any kind, either expressed or implied. This includes, but is not limited to, warranties of merchantability and fitness for a particular purpose. The entirety of risk, including but not limited to, quality and performance of the project is entirely with you. Should any problems or damages arise you assume all costs in connection with this project or its use.
