@@ -1,6 +1,65 @@
-# Garrett's General Software Licenses
 
-# V.?.0
+# License: NAME
+
+### Version: V.?.0
+
+### Year/Date/Month
+
+### Code: XXX
+
+### Creator: NAME
+
+## Details
+
+#### License Collection: Garrett's General Software Licenses
+
+### Version: V.?.0
+
+### Publication: Year/Date/Month
+
+### Source: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
+
+### Preamble
+
+Everyone is permitted to generate their own licenses using these provisions verbatim, but not allowed to change the provisions while using the name or referencing "Garrett's General Software Licenses".
+
+## This Licenses' Provisions
+
+### Permissions
+
+| Permission | Contains | Doesn't Contain |
+|---|---|---|
+| Commercial Use | | |
+| Donation | | |
+| Distribution | | |
+| Modification | | |
+| Private Use | | |
+| Patent Use | | |
+| Distribution Final Form | | |
+| Upgradability | | |
+| Dual-Licensing | | |
+
+### Conditions
+
+| Conditions | Contains | Doesn't Contain |
+|---|---|---|
+| Disclose Source | | |
+| License and Copyright Notice | | |
+| License and Copyright Notice For Source | | |
+| Network Use Is Distribution | | |
+| Same License | | |
+| Existing File Same License | | |
+| Lesser Same License | | |
+| State Changes | | |
+| Hide Source | | |
+| Contributor License Agreement | | |
+
+### Limitations
+
+| Limitations | Contains | Doesn't Contain |
+|---|---|---|
+| Liability | | |
+| Warranty | | |
 
 ## Categories of Provisions
 
@@ -24,6 +83,7 @@
 
 - [Disclose Source](#Disclose_Source)
 - [License and Copyright Notice](#License_and_Copyright_Notice)
+- [License and Copyright Notice For Source](#License_and_Copyright_Notice_Source)
 - [Network Use Is Distribution](#Network_Use_Is_Distribution)
 - [Same License](#Same_License)
 - [Existing File Same License](#Existing_File_Same_License)
@@ -186,6 +246,46 @@ Preferably, but not required, would be two other items included alongside the re
   
 If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
 
+<h3 id="License_and_Copyright_Notice_Source">License and Copyright Notice For Source</h3>
+
+"License and Copyright Notice For Source" means that the following should be included when this project's source code is distributed:
+
+- A copy of this license.
+- A mention of this project, the license it uses, and any other desired relevant information, such as the person, foundation, or company that leads the project.
+
+These two items should be included as files.
+
+Preferably, but not required, inside each file of the source code would be a header comment listing information about the copyright and the license. How this is implemented would be up to you. An example would be:
+
+---
+
+This file is part of [<u>Project Name</u>] [(<u>link to website, source code, or repository</u>)].
+
+Copyright (c) [<u>Year/Month/Date</u>] [<u>File Creator Name, Foundation Name, or Company Name</u>]
+
+This program is under the terms of the [<u>License Name</u>].
+
+You should have received a copy of the [<u>License Name</u>] along with this program. If not, see [(<u>link to the license</u>)].
+
+[<u>Small description about what this project does</u>]
+
+[<u>Small description about what this file does</u>]
+
+---
+
+Preferably, but not required, would be two other items included alongside the required other two:
+
+1. Mentions to any and all other projects used within this project, the license they use, and any other desired relevant and/or required information about them.
+    - It is respectful to give credit to the projects that you used to create your project.
+    - Given that many projects have licenses requiring this information to be recorded it is always a good idea to include this information.
+
+2. Information about every author, copyright holder, maintainer, or any other party who modifies the project, such as their name, contact information, and what they did on the project.
+    - It is of upmost importance to give credit to the creators and maintainers of what you use.
+    - It would also be respectful not to include those who don't want their information published.
+    - However, due to the large and collaborative nature of many open-source projects this may not, and often will not, be feasible. In that case it would be respectful to at least give references to the key figures and the community in general.
+  
+If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
+
 <h3 id="Network_Use_Is_Distribution">Network Use Is Distribution</h3>
 
 "Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service. Any form that exists to provide a customer, consumer, end user, or entity access without having to provide the entire or full work in a complete physical, digital, or other form.
@@ -295,3 +395,46 @@ In no event shall the authors, copyright holders, maintainers, or any other part
 "Warranty" means as follows:
 
 This project is provided as is without warranty of any kind, either expressed or implied. This includes, but is not limited to, warranties of merchantability and fitness for a particular purpose. The entirety of risk, including but not limited to, quality and performance of the project is entirely with you. Should any problems or damages arise you assume all costs in connection with this project or its use.
+
+## Codes
+
+The code for the license is set up in the following sections:
+
+1. License Initialism
+2. Permissions
+3. Conditions
+4. Limitations
+
+The code is built in the following format:
+
+- 1-[2a-2b-2n]-[3a-3b-3n]-[4a-4b]
+
+| Permission | Code |
+|---|---|
+| Commercial Use | C |
+| Donation | Do |
+| Distribution | D |
+| Modification | M |
+| Private Use | Pa |
+| Patent Use | Pr |
+| Distribution Final Form | Df |
+| Upgradability | U |
+| Dual-Licensing | Dl |
+
+| Conditions | Code |
+|---|---|
+| Disclose Source | Ds |
+| License and Copyright Notice | Lc |
+| License and Copyright Notice For Source | Lc |
+| Network Use Is Distribution | N |
+| Same License | Sl |
+| Existing File Same License | Sle |
+| Lesser Same License | Ls |
+| State Changes | S |
+| Hide Source | H |
+| Contributor License Agreement | Cl |
+
+| Limitations | Code |
+|---|---|
+| Liability | L |
+| Warranty | W |
