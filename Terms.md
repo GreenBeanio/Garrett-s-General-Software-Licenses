@@ -147,7 +147,7 @@ This "easily visible and navigable way" can be any method that meshes well with 
 "License and Copyright Notice" means that the following should be included when this project is distributed:
 
 - A copy of this license.
-- A mention of this project, the license it uses, and any other desired relevant information.
+- A mention of this project, the license it uses, and any other desired relevant information, such as the person, foundation, or company that leads the project.
 
 In the event that this project is distributed in its raw form, such as source code, these two items should be included as files.
 
