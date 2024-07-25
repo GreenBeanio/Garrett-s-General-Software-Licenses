@@ -5,7 +5,7 @@
 
 ## License Name: NAME
 
-### Version: 1.0
+### Version: X.X
 
 ### Publication: Year/Date/Month
 
@@ -103,7 +103,9 @@
 
 Any contributor to this project automatically agrees irrevocably and perpetually to license their contribution and copyrighted material under the current license of this project at time of contribution.
 
-Any changes to the license are not retroactive and will only affect future releases and contributions. All previous contributions are still available under the license the contributor and copyright owner agreed to at the time of contributions. Meaning that a fork, copy, or new project can be formed using the former license, according to the provisions of that license.
+Any changes to the license are not retroactive and will only affect future releases and contributions. All previous contributions are still available under the license the contributor and copyright owner agreed to at the time of contributions.
+
+Only those provisions marked above as being included, or contained, in this license are part of this license. All provisions not marked above as being included, or contained, are to be disregarded.
 
 ## Provisions
 
