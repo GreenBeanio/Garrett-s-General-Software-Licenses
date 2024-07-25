@@ -460,18 +460,18 @@ The contents above this section pertain to the project as a whole and the licens
 
 The following section pertains only to the generation of the license itself. It does not pertain to the project as a whole or the license it follows.
 
-### License Collection: Garrett's General Software Licenses
+### License Collection: COLLECTION
 
-### Version: 1.0
+### Version: X.X
 
 ### Publication: Year/Month/Day
 
-### Collection Creator: Garrett Johnson (GreenBeanio)
+### Collection Creator: NAME
 
-### Collection Creator Contact: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
+### Collection Creator Contact: Contact
 
-Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "Garrett's General Software Licenses".
+Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "[<u>License Collection</u>]" and "[<u>License Creator</u>]".
 
-If any and all references to "Garrett's General Software Licenses" are removed everyone is permitted to modify, copy, distribute, publish, and use this license without restriction.
+If any and all references to "[<u>License Collection</u>]" and "[<u>License Creator</u>]" are removed everyone is permitted to modify, copy, distribute, publish, and use this license without restriction.
 
-The creator of this license shall in no event be held liable and/or held responsible for any claim or damage. This license is provided as is without warranty of any kind, either expressed or implied.
+The creator of this license, and/or license collection, shall in no event be held liable and/or held responsible for any claim or damage. This license is provided as is without warranty of any kind, whether expressed or implied.

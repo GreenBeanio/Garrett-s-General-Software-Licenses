@@ -1,0 +1,43 @@
+{
+    "License": {
+        "License Family": "Garrett's Open License",
+        "License Name": "Freedom+",
+        "Version": "1.0",
+        "Publication": "2024/07/24",
+        "License Creator": "Garrett Johnson (GreenBeanio)",
+        "License Creator Contact": "<https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>"
+    },
+    "Provisions": {
+        "C": true,
+        "Do": null,
+        "D": true,
+        "M": true,
+        "Pr": true,
+        "Pa": null,
+        "Df": null,
+        "U": null,
+        "Ml": null,
+        "T": null,
+        "Ds": null,
+        "Lc": true,
+        "Lcs": null,
+        "N": null,
+        "Sl": null,
+        "Sle": null,
+        "Ls": null,
+        "S": null,
+        "H": null,
+        "Cl": null,
+        "L": true,
+        "W": true,
+        "Pn": null,
+        "Tn": null
+    },
+    "Generator": {
+        "License Collection": "Garrett's General Software Licenses",
+        "Version": "1.0",
+        "Publication": "2024/07/24",
+        "Collection Creator": "Garrett Johnson (GreenBeanio)",
+        "Collection Creator Contact": "<https://github.com/GreenBeanio>"
+    }
+}
