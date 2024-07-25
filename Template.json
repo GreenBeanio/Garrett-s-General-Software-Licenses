@@ -1,0 +1,43 @@
+{
+    "License": {
+        "License Family": "FAMILY",
+        "License Name": "NAME",
+        "Version": "X.X",
+        "Publication": "Year/Month/Day",
+        "License Creator": "Name",
+        "License Creator Contact": "Contact"
+    },
+    "Provisions": {
+        "C": null,
+        "Do": null,
+        "D": null,
+        "M": null,
+        "Pr": null,
+        "Pa": null,
+        "Df": null,
+        "U": null,
+        "Ml": null,
+        "T": null,
+        "Ds": null,
+        "Lc": null,
+        "Lcs": null,
+        "N": null,
+        "Sl": null,
+        "Sle": null,
+        "Ls": null,
+        "S": null,
+        "H": null,
+        "Cl": null,
+        "L": null,
+        "W": null,
+        "Pn": null,
+        "Tn": null
+    },
+    "Generator": {
+        "License Collection": "License Collection",
+        "Version": "X.X",
+        "Publication": "Year/Month/Day",
+        "Collection Creator": "NAEME",
+        "Collection Creator Contact": "Contact"
+    }
+}

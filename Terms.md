@@ -1,19 +1,19 @@
 
 # License: FAMILY NAME
 
+## Version: X.X
+
 ## License Family: FAMILY
 
 ## License Name: NAME
 
-### Version: X.X
-
-### Publication: Year/Date/Month
-
 ### Code: XXX
 
-### Creator: NAME
+### Publication: Year/Month/Day
 
-### Creator Contact
+### License Creator: NAME
+
+### License Creator Contact: Contact
 
 ## Licenses Provisions
 
@@ -464,9 +464,11 @@ The following section pertains only to the generation of the license itself. It 
 
 ### Version: 1.0
 
-### Publication: Year/Date/Month
+### Publication: Year/Month/Day
 
-### Source: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
+### Collection Creator: Garrett Johnson (GreenBeanio)
+
+### Collection Creator Contact: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
 
 Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "Garrett's General Software Licenses".
 
