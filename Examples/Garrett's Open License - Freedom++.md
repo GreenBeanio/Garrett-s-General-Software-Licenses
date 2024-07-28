@@ -335,8 +335,9 @@ If other projects were also used as components in your project, it's important t
 "Lesser Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project, and creations derived from the original content.
 
 In this context created or derived means building upon this project directly. Not using or calling this project inside of your project.
-      - Adding a new function, interface, component, classes, etc. to this project that builds upon this project would count as being created or derived in this context.
-      - Calling functions, interfaces, components, classes, etc. from this project from somewhere else in your project would not count as being created or derived in this context.
+
+- Adding or creating a new function, interface, component, classes, etc. to this project that builds upon this project would count as being created or derived in this context.
+- Calling or using functions, interfaces, components, classes, etc. from this project from somewhere else in your project would not count as being created or derived in this context.
 
 "Using this project" means:
 
