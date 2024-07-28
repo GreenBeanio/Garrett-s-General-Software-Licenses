@@ -7,6 +7,10 @@
         "License Creator": "Name",
         "License Creator Contact": "Contact"
     },
+    "Code": {
+        "LFI": "License Family Initialism",
+        "FNI": "License Name Initialism"
+    },
     "Provisions": {
         "C": null,
         "Do": null,

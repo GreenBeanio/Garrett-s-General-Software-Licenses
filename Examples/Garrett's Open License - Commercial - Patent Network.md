@@ -1,19 +1,19 @@
 
-# License: FAMILY NAME
+# License: Garrett's Open License - Commercial - Patent Network
 
-## Version: X.X
+## Version: 1.0
 
-## License Family: FAMILY
+## License Family: Garrett's Open License
 
-## License Name: NAME
+## License Name: Commercial - Patent Network
 
-### Code: XXX
+### Code: GOL-CPN-1.0-[C-D-M-Pa-Pr]-[Ds-Lc-N-Sl-S]-[L-W]
 
-### Publication: Year/Month/Day
+### Publication: 2024/07/27
 
-### License Creator: NAME
+### License Creator: Garrett Johnson (GreenBeanio)
 
-### License Creator Contact: Contact
+### License Creator Contact: <https://github.com/GreenBeanio/Garrett-s-General-Software-Licenses>
 
 ## Licenses Provisions
 
@@ -21,12 +21,12 @@
 
 | Permission | Contains |
 |---|---|
-| Commercial Use | |
+| Commercial Use | X |
 | Donation | |
-| Distribution | |
-| Modification | |
-| Private Use | |
-| Patent Use | |
+| Distribution | X |
+| Modification | X |
+| Private Use | X |
+| Patent Use | X |
 | Distribution Final Form | |
 | Upgradability | |
 | Multi-Licensing | |
@@ -36,14 +36,14 @@
 
 | Condition | Contains |
 |---|---|
-| Disclose Source | |
-| License and Copyright Notice | |
+| Disclose Source | X |
+| License and Copyright Notice | X |
 | License and Copyright Notice For Source | |
-| Network Use Is Distribution | |
-| Same License | |
+| Network Use Is Distribution | X |
+| Same License | X |
 | Existing File Same License | |
 | Lesser Same License | |
-| State Changes | |
+| State Changes | X |
 | Hide Source | |
 | Contributor License Agreement | |
 
@@ -51,8 +51,8 @@
 
 | Limitation | Contains |
 |---|---|
-| Liability | |
-| Warranty | |
+| Liability | X |
+| Warranty | X |
 | No Patent Use | |
 | No Trademark Use | |
 
@@ -462,18 +462,18 @@ The contents above this section pertain to the project as a whole and the licens
 
 The following section pertains only to the generation of the license itself. It does not pertain to the project as a whole or the license it follows.
 
-### License Collection: COLLECTION
+### License Collection: Garrett's General Software Licenses
 
-### Version: X.X
+### Version: 1.0
 
-### Publication: Year/Month/Day
+### Publication: 2024/07/27
 
-### Collection Creator: NAME
+### Collection Creator: Garrett Johnson (GreenBeanio)
 
-### Collection Creator Contact: Contact
+### Collection Creator Contact: <https://github.com/GreenBeanio>
 
-Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "[License Collection]" and "[License Creator]".
+Everyone is permitted to generate their own licenses using these provisions verbatim but are not allowed to change the provisions while using the name or referencing "Garrett's General Software Licenses" and "Garrett Johnson (GreenBeanio)".
 
-If any and all references to "[License Collection]" and "[License Creator]" are removed everyone is permitted to modify, copy, distribute, publish, and use this license without restriction.
+If any and all references to "Garrett's General Software Licenses" and "Garrett Johnson (GreenBeanio)" are removed everyone is permitted to modify, copy, distribute, publish, and use this license without restriction.
 
 The creator of this license, and/or license collection, shall in no event be held liable and/or held responsible for any claim or damage. This license is provided as is without warranty of any kind, whether expressed or implied.
