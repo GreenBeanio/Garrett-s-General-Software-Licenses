@@ -184,7 +184,7 @@ Unless the "Network Use Is Distribution" special provision is explicitly granted
 
 <h3 id="Upgradability">Upgradability</h3>
 
-"Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to the new version.
+"Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to any newer version of this license.
 
 In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 

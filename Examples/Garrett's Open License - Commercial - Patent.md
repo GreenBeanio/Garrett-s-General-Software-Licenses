@@ -9,7 +9,7 @@
 
 ### Code: GOL-CP-1.0-[C-D-M-Pa-Pr]-[Ds-Lc-Sl-S]-[L-W]
 
-### Publication: 2024/07/27
+### Publication: 2024/08/02
 
 ### License Creator: Garrett Johnson (GreenBeanio)
 
@@ -184,7 +184,7 @@ Unless the "Network Use Is Distribution" special provision is explicitly granted
 
 <h3 id="Upgradability">Upgradability</h3>
 
-"Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to the new version.
+"Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to any newer version of this license.
 
 In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
@@ -467,7 +467,7 @@ The following section pertains only to the generation of the license itself. It 
 
 ### Version: 1.0
 
-### Publication: 2024/07/27
+### Publication: 2024/08/02
 
 ### Collection Creator: Garrett Johnson (GreenBeanio)
 
