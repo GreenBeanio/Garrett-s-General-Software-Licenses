@@ -223,17 +223,25 @@ Preferably, but not required, inside each file of the source code would be a hea
 
 ---
 
-This file is part of [Project Name] [(link to website, source code, or repository)].
+Project: [Project Name] [(link to website, source code, or repository)].
 
-Copyright (c) [Year/Month/Date] [File Creator Name, Foundation Name, or Company Name]
+Copyright: Copyright (c) [First Year]-[Current Year] [Project Name] Contributors
 
-This program is under the terms of the [License Name].
+Version: [Version Number]
 
-You should have received a copy of the [License Name] along with this program. If not, see ([link to the license]).
+Status: [Removed, Deprecated, Prototype, Development, Production]
 
-[Small description about what this project does]
+License: [License]
 
-[Small description about what this file does]
+Author(s): [Author - Contact,]
+
+Maintainer: [Author - Contact]
+
+Credit: [Credit to additional parties that aren't contributors]
+
+Project Description: [Small description about what this project does]
+
+File Description: [Small description about what this file does]
 
 ---
 
@@ -263,17 +271,25 @@ Preferably, but not required, inside each file of the source code would be a hea
 
 ---
 
-This file is part of [Project Name] [(link to website, source code, or repository)].
+Project: [Project Name] [(link to website, source code, or repository)].
 
-Copyright (c) [Year/Month/Date</u>] [File Creator Name, Foundation Name, or Company Name]
+Copyright: Copyright (c) [First Year]-[Current Year] [Project Name] Contributors
 
-This program is under the terms of the [License Name].
+Version: [Version Number]
 
-You should have received a copy of the [License Name] along with this program. If not, see ([link to the license]).
+Status: [Removed, Deprecated, Prototype, Development, Production]
 
-[Small description about what this project does]
+License: [License]
 
-[Small description about what this file does]
+Author(s): [Author - Contact,]
+
+Maintainer: [Author - Contact]
+
+Credit: [Credit to additional parties that aren't contributors]
+
+Project Description: [Small description about what this project does]
+
+File Description: [Small description about what this file does]
 
 ---
 
@@ -353,19 +369,33 @@ If other projects were also used as components in your project, it's important t
 
 "State Changes" requires that any changes made to the project must be documented. The method to document these changes should be stored with the source code.
 
-Preferably, this documentation would be stored in the source code itself. The verbose approach would be adding the date, author of the modification, if desired contact information, and if desired comment explaining the modification to sections modified. The brief approach would be to make an addition to a header comment, or add a comment by the changes, including the date, the author of the modification, if desired contact information, and if desired a comment about the modification. An example section added to the header comment is:
+Preferably, this documentation would be stored in the source code itself. The preferred approach would be a 3-step process consisting of the following steps.
+
+Step 1 would be to add your name to the list of authors in the header comment, a comment at the beginning of the code. As well as updating the year range on the copyright notice if the year of the change is later than the currently listed year.
+
+Step 2 would be to add a comment alongside the modified code. This comment would just need to indicate the section of the code that was added, modified, etc. by the contributor. An example of this would be:
 
 ---
 
-Changes to this file have been made as follows:
+[Year/Month/Day] - [Author - Contact]
 
-[Year/Month/Day] [Author Name] [Brief description of the change].
+---
+
+This does not need to be verbose and should be used to mark out the section of the code the contributor worked on. If not desired, the date could even be replaced with just the year or removed. If you insert into another section of code, you should also copy the above contributor's comment and put it after your section to mark their work starting again. If you remove a section of code, you do not need to mark that you removed it in this section, unless you really want to.
+
+Step 3 is a more verbose version of step 2. In this step you add a note that you modified the code to the footer comment, a comment at the end of the code. While this step is verbose, and could be repetitive, it would be especially helpful in keeping track of removals, modifications, and small changes to the code. An example of this would be:
+
+---
+
+[Year/Month/Day] - [Author - Contact] - [Brief description of the change].
 
 ---
 
 Version control will be accepted but is not preferred. This is because it can easily be separated from the source code itself. An end user downloading the source code will likely not clone the repository and thus not have access to the commit history of modifications.
 
 Another approach would be a dedicated document listing the modification information. However, this is the most intensive for the maintainers and is not expected.
+
+While you have been given several examples of how to track your changes, the specific way that you decide to state the changes in your project is up to your discretion.
 
 <h3 id="Hide_Source">Hide Source</h3>
 
@@ -379,13 +409,19 @@ By contributing to this project, you agree to a "Contributor License Agreement".
 2. Granting irrevocable and perpetual rights to the Project Owner, Foundation, or Entity to create and distribute collective works and derivative works of any contribution to this project.
 3. Granting the above irrevocable and perpetual rights to the Project Owner, Foundation, or Entity under any license decided by them.
 
-The contributor should also identify their contributions to the project in the source code by adding the following comment to their contributions:
+The contributor should also identify their contributions to the project in the source code. This can be achieved by adding the following next to the authors name and/or contact information in the header comment listing the authors:
 
 ---
 
-Changes to this file have been made as follows:
+[Author - Contact - Licensed to [Project Name] under a Contributor License Agreement]
 
-[Year/Month/Day] [Author Name] Licensed to [Project Name] under a Contributor License Agreement. [Brief description of the change].
+---
+
+This can also be accomplished by adding, or modifying current comments to fit, a comment similar to the example below:
+
+---
+
+[Year/Month/Day] - [Author - Contact] - Licensed to [Project Name] under a Contributor License Agreement - [Brief description of the change].
 
 ---
 
@@ -459,9 +495,9 @@ The code is built in the following format:
 
 ## License Generation Details
 
-The contents above this section pertain to the project as a whole and the license that it follows.
+The contents above this section pertain to the project as a whole, besides this file, and the license that it follows.
 
-The following section pertains only to the generation of the license itself. It does not pertain to the project as a whole or the license it follows.
+The following section pertains only to the generation of the license itself. It does not pertain to the project as a whole, besides this file, or the license it follows.
 
 ### License Collection: COLLECTION
 
