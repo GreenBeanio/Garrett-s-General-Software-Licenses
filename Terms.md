@@ -103,9 +103,11 @@
 
 Any contributor to this project automatically agrees irrevocably and perpetually to license their contribution and copyrighted material under the current license of this project at time of contribution.
 
-Any changes to the license are not retroactive and will only affect future releases and contributions. All previous contributions are still available under the license the contributor and copyright owner agreed to at the time of contributions.
+Any changes to the license are not retroactive and will only affect future releases and contributions. All previous contributions are still available under the license the contributor and/or copyright owner agreed to at the time of contributions.
 
 Only those provisions marked above as being included, or contained, in this license are included in this license. All provisions not marked above as being included, or contained, are to be disregarded from this license.
+
+In the event that you violate the provisions of this license you terminate **all** rights and grants to this project under this license. However, this license can be reinstated to you with discretion from the copyright owners if your violation was accidental and repaired promptly. In the event the violation was not accidental legal action may be taken upon you at the discretion of the copyright holders.
 
 ## Provisions
 
@@ -382,6 +384,8 @@ Step 2 would be to add a comment alongside the modified code. This comment would
 ---
 
 This does not need to be verbose and should be used to mark out the section of the code the contributor worked on. If not desired, the date could even be replaced with just the year or removed. If you insert into another section of code, you should also copy the above contributor's comment and put it after your section to mark their work starting again. If you remove a section of code, you do not need to mark that you removed it in this section, unless you really want to.
+
+In the event that you are doing small modifications, refactoring, renaming, etc. someone else's work it would be complicated and disingenuous to claim the entire section as your own. In events similar this you can name put your name and date under their name and date while noting what modifications you made.
 
 Step 3 is a more verbose version of step 2. In this step you add a note that you modified the code to the footer comment, a comment at the end of the code. While this step is verbose, and could be repetitive, it would be especially helpful in keeping track of removals, modifications, and small changes to the code. An example of this would be:
 
