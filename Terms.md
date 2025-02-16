@@ -22,6 +22,7 @@
 | Permission | Contains |
 |---|---|
 | Commercial Use | |
+| Special Commercial Use | |
 | Donation | |
 | Distribution | |
 | Modification | |
@@ -31,13 +32,16 @@
 | Upgradability | |
 | Multi-Licensing | |
 | Trademark Use | |
+| AI Use | |
+| AI Facilitation | |
+| Anti-Humanitarian Uses | |
 
 ### Conditions
 
 | Condition | Contains |
 |---|---|
 | Disclose Source | |
-| License and Copyright Notice | |
+| License and Copyright Notice ||
 | License and Copyright Notice For Source | |
 | Network Use Is Distribution | |
 | Same License | |
@@ -46,6 +50,7 @@
 | State Changes | |
 | Hide Source | |
 | Contributor License Agreement | |
+| No Direct Copy | |
 
 ### Limitations
 
@@ -55,6 +60,10 @@
 | Warranty | |
 | No Patent Use | |
 | No Trademark Use | |
+| No AI Training | |
+| No AI Facilitation | |
+| No Anti-Humanitarian Uses | |
+| License Revocation | |
 
 ## Categories of Provisions
 
@@ -63,6 +72,7 @@
 #### What you are allowed to do
 
 - [Commercial Use](#Commercial_Use)
+- [Special Commercial Use](#Commercial_Use_Special)
 - [Donation](#Donation)
 - [Distribution](#Distribution)
 - [Modification](#Modification)
@@ -72,6 +82,9 @@
 - [Upgradability](#Upgradability)
 - [Multi-Licensing](#ML)
 - [Trademark Use](#TU)
+- [AI Training](#AI)
+- [AI Facilitation](#AIF)
+- [Anti-Humanitarian Uses](#HU)
 
 ### Conditions
 
@@ -87,6 +100,7 @@
 - [State Changes](#State_Changes)
 - [Hide Source](#Hide_Source)
 - [Contributor License Agreement](#CLA)
+- [No Direct Commercial Use](#NDCU)
 
 ### Limitations
 
@@ -96,6 +110,10 @@
 - [Warranty](#Warranty)
 - [No Patent Use](#NPU)
 - [No Trademark Use](#NTU)
+- [No AI Training](#NAI)
+- [No AI Facilitation](#NAIF)
+- [No Anti-Humanitarian Uses](#NHU)
+- [License Revocation](#LR)
 
 ---
 
@@ -111,7 +129,9 @@ In the event that you violate the provisions of this license you terminate **all
 
 ## Provisions
 
-<h3 id="Commercial_Use">Commercial Use</h3>
+### Permissions
+
+<h4 id="Commercial_Use">Commercial Use</h4>
 
 "Commercial Use" means that the project may be used for commercial purposes. "Commercial" meaning anything involving a monetary, or other, transaction of any kind.
 
@@ -123,17 +143,24 @@ This provision explicitly allows a person or entity to use this project to provi
 
 If this provision is not explicitly granted it means that this project cannot be used to provide a product or service that requires the customer, consumer, end user, or entity to facilitate a monetary transaction with the provider. Meaning that unless this provision is granted the customer, consumer, end user, or entity shall not be charged any monetary, or other, costs, to use the product or service this project is used in. This includes any indirect costs to the customer, consumer, end user, or entity. Indirect costs include, but are not limited to, advertising revenue, selling of user data, or using user data for marketing or other business operations. Simply put, if this provision is not explicitly granted the customer, consumer, end user, or entity shall be able to use the product or service using this project for free without any cost, be it direct or indirect.
 
-<h3 id="Donation">Donation</h3>
+<h4 id="Commercial_Use_Special">Special Commercial Use</h4>
 
-"Donation" allows for the providers of a product or service using this project to collect donations. These donations can be monetary or applicable transactions such as, but not limited to, labor, advertising, or services.
+This provision is a special branch of the "Commercial Use" provision. The "Commercial Use" provision allows for commercial use across the board, including for-profit scenarios. This provision allows commercial use to be used in the following special situations:
+
+- Educational Purposes that serve to educate the public
+- Non-Profit Purposes that serve to benefit the public
+
+<h4 id="Donation">Donation</h4>
+
+"Donation" allows for the providers of a product or service using this project to collect donations. These donations can be monetary or an applicable transactions such as, but not limited to, labor, advertising, or services.
 
 A donation must not be required from the customer, consumer, end user, or entity to use the provided product or service using this project. A donation must also not give the customer, consumer, end user, or entity special privileges or access to the product or service using this project that a non-donator would not have. Simply put, donators and non-donators must be kept equal in all aspects.
 
-<h3 id="Distribution">Distribution</h3>
+<h4 id="Distribution">Distribution</h4>
 
 "Distribution" means that the project may be distributed to others. This includes physical, digital, network, and any other form of distribution, including those yet to be created.
 
-"Distribution" is explicitly implied for every form of this project, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions), and anything in between, or yet to be created.
+"Distribution" is explicitly implied for every form of this project, this includes, but is not limited to, its raw form (such as source code), its finished form (such as binaries, executables, compiled forms, etc.), its remote form (such as a website, hosted, cloud, as a service versions, or live service versions), and anything in between, or yet to be created.
 
 "Raw forms" being any forms that the customer, consumer, end user, or entity can use to build another form, usually the finished form.
 
@@ -145,7 +172,7 @@ This also specifically includes having **multiple** users of the project. Such a
 
 Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regard to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
 
-<h3 id="Modification">Modification</h3>
+<h4 id="Modification">Modification</h4>
 
 "Modification" means that this project, and its constituent parts, may be changed or edited. This includes every element of the project. If modification is not explicitly allowed this project must be used as is.
 
@@ -154,7 +181,7 @@ Any other project used in this project is subject to the provisions of its licen
 1. If modification is not explicitly allowed in this project but an included project has a license allowing for modification then the items of this project from that project can be modified according to its license.
 2. If modification is explicitly allowed in this project but an included project has a license not allowing for modification then the items of this project from that project cannot be modified according to its license.
 
-<h3 id="Private_Use">Private Use</h3>
+<h4 id="Private_Use">Private Use</h4>
 
 "Private Use" entails using the project for personal use. "Personal Use" meaning you are the **sole** user of the project. Specifically, that there is a sole user of this distinct distribution, version or copy of the project at any given time.
 
@@ -164,15 +191,15 @@ An exception to the sole user rule is if the project requires or facilitates mul
 
 "Private Use" is analogous to having a hammer. If I have a hammer, I can use it to hammer nails. If my friend comes over, they can pick up my hammer and hammer nails as well, but then I can't use the hammer anymore. "Distribution" is also analogous to me having a hammer. Except, when my friend comes over instead of me letting him use my hammer, I duplicate the hammer and give him the duplicate. Then we both have hammers and can hammer nails.
 
-<h3 id="Patent_Use">Patent Use</h3>
+<h4 id="Patent_Use">Patent Use</h4>
 
 When a contributor uses patent rights and claims that they hold in this project they grant everyone using this project the right to use those patent rights and claims in this project, and its derivatives, as well.
 
-<h3 id="Distribution_Final">Distribution Final Form</h3>
+<h4 id="Distribution_Final">Distribution Final Form</h4>
 
 "Distribution Final Form" is a special form of distribution that means that the project may be distributed to others only in its final forms.
 
-"Distribution Final Form" is explicitly implied for every final form of this project, this includes, but is not limited to, it's finished form (such as binaries, executables, compiled forms, etc.), and it's remote form (such as a website, hosted, cloud, as a service versions, or live service versions). This provision explicitly doesn't allow distribution in the raw forms (such as source code).
+"Distribution Final Form" is explicitly implied for every final form of this project, this includes, but is not limited to, it's finished form (such as binaries, executables, compiled forms, etc.), and its remote form (such as a website, hosted, cloud, as a service versions, or live service versions). This provision explicitly doesn't allow distribution in the raw forms (such as source code).
 
 "Raw forms" being any forms that the customer, consumer, end user, or entity can use to build another form, usually the finished form.
 
@@ -184,23 +211,45 @@ This also specifically includes having **multiple** users of the project. Such a
 
 Unless the "Network Use Is Distribution" special provision is explicitly granted being "over a network" does not count as "Distribution" in regard to the "Disclose Source" and "License and Copyright Notice" provisions. Meaning that any "over a network" are not subject to the "Disclose Source" and "License and Copyright Notice" provisions if the "Network Use Is Distribution" special provision is not explicitly granted.
 
-<h3 id="Upgradability">Upgradability</h3>
+<h4 id="Upgradability">Upgradability</h4>
 
 "Upgradability" means that in the event that a new version of this license is released by the same person, foundation, or company that authored it the project has the choice, but are not required, to change or upgrade the license of this project to any newer version of this license.
 
 In order to upgrade the license all copyright owners must agree to upgrade the version of the license, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
-<h3 id="ML">Multi-Licensing</h3>
+<h4 id="ML">Multi-Licensing</h4>
 
 "Multi-Licensing" means that it is possible to release this project under multiple differing licenses and versions. Such as a Community version and a Commercial version.
 
+This includes the ability to change the license of the project going forward, but does not retroactively change the license of past contributions or versions of the project.
+
 In order to for multi-licensing to be enacted all copyright owners must agree to the multi-licensing and what licenses to use or change to, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
 
-<h3 id="TU">Trademark Use</h3>
+<h4 id="TU">Trademark Use</h4>
 
 This license grants permission to use names, trade names, trademarks, service marks, product marks, and/or logos of the Licensor and/or Contributors to endorse or promote creations derived from this project in regard to names, trade names, trademarks, service marks, product marks, and/or logos used in relation to this project and its derivatives.
 
-<h3 id="Disclose_Source">Disclose Source</h3>
+<h4 id="AI"> AI Training</h4>
+
+This license grants permission to use this project for algorithmic training purposes. This includes using this project's content as training data or any future applicable technology. This includes, but is not limited to, statistical learning, machine learning, deep learning, artificial intelligence, generative artificial intelligence, and large language models. In the event that new technologies come into existence that use input data to train output data the contents of this project can be used as data for those algorithms, models, technologies, etc.
+
+<h4 id="AIF"> AI Facilitation</h4>
+
+This license does grant permission to use this project as part of the process in algorithmic training purposes. This includes using this project's content as training data or any future applicable technology. This includes, but is not limited to, statistical learning, machine learning, deep learning, artificial intelligence, generative artificial intelligence, and large language models. In the event that new technologies come into existence that use input data to train output data the contents of this project can be used in the process.
+
+However, unless otherwise specifically stated this does not allow this project to be used as training data. This permission only allows for this project to be used in the toolchain of an algorithmic training model, or an applicable technology.
+
+For example, you can use this project as part of a software or solution stack in a machine learning model, but you can not use the source code of this project to train a machine learning model.
+
+<h4 id="HU">Anti-Humanitarian Uses</h4>
+
+This project can be used in any way that serves to put human life at risk. This includes direct risk and what a reasonable person would consider an indirect risk.
+
+This includes usage in military applications.
+
+## Conditions
+
+<h4 id="Disclose_Source">Disclose Source</h4>
 
 "Disclose Source" means that when the project is distributed the source code must be made available.
 
@@ -208,7 +257,7 @@ In the event that the entire source code is not distributed alongside the form d
 
 This "easily visible and navigable way" can be any method that meshes well with your use case. It should be in such a way that the customer, consumer, end user, or entity using your product or service is made readily aware that the source code is available if they desire it. Some, but not all, examples of this are as follows: Part of a splash screen, prominent in the documentation or manual, an easily navigable page on a website, and a notice message confirmed by the user. How this source code is made available is up to your discretion. The preferred method would be to have it available to download from a public source.
 
-<h3 id="License_and_Copyright_Notice">License and Copyright Notice</h3>
+<h4 id="License_and_Copyright_Notice">License and Copyright Notice</h4>
 
 "License and Copyright Notice" means that the following should be included when this project is distributed:
 
@@ -229,7 +278,7 @@ Project: [Project Name] [(link to website, source code, or repository)].
 
 Copyright: Copyright (c) [First Year]-[Current Year] [Project Name] Contributors
 
-Version: [Version Number]
+Version: [Version Number (Major#-Minor#-Patch#-Development#)]
 
 Status: [Removed, Deprecated, Prototype, Development, Production]
 
@@ -260,7 +309,7 @@ Preferably, but not required, would be two other items included alongside the re
   
 If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
 
-<h3 id="License_and_Copyright_Notice_Source">License and Copyright Notice For Source</h3>
+<h4 id="License_and_Copyright_Notice_Source">License and Copyright Notice For Source</h4>
 
 "License and Copyright Notice For Source" means that the following should be included when this project's source code is distributed:
 
@@ -277,7 +326,7 @@ Project: [Project Name] [(link to website, source code, or repository)].
 
 Copyright: Copyright (c) [First Year]-[Current Year] [Project Name] Contributors
 
-Version: [Version Number]
+Version: [Version Number (Major#-Minor#-Patch#-Development#)]
 
 Status: [Removed, Deprecated, Prototype, Development, Production]
 
@@ -308,13 +357,13 @@ Preferably, but not required, would be two other items included alongside the re
   
 If it is too cumbersome to add these two additional items the commit history, or similar concept, from a source control system, such as git, is acceptable. However, dedicated items would be preferred as the end-user will often not have access to the source control system or they simply wouldn't understand how to navigate it.
 
-<h3 id="Network_Use_Is_Distribution">Network Use Is Distribution</h3>
+<h4 id="Network_Use_Is_Distribution">Network Use Is Distribution</h4>
 
 "Network Use Is Distribution" means that when a customer, consumer, end user, or entity uses, or interacts with, this project over a network it is treated as distribution. "Over a network" meaning any form of remote connection, including forms yet to be created. These remote connections include, but are not limited to, websites, servers, the cloud, and as a service. Any form that exists to provide a customer, consumer, end user, or entity access without having to provide the entire or full work in a complete physical, digital, or other form.
 
 This provision is a special provision that adds additional context to the "Distribution" and "Distribution Final Form" provisions. Unless this provision is explicitly granted being "over a network" does not count as "Distribution". Meaning that any "over a network" activities would not count as "Distribution" and not be subject to the "Disclose Source" and "License and Copyright Notice" provisions if this provision is not explicitly granted.
 
-<h3 id="Same_License">Same License</h3>
+<h4 id="Same_License">Same License</h4>
 
 "Same License" means that when using this project your **entire** project must use this license.
 
@@ -334,7 +383,7 @@ If other projects were also used as components in your project, follow these rul
   2. If their license does not satisfy the provisions of this license:
      1. Remove the other project as a component of your project or remove this project as a component of your project. Both projects cannot be used if they don't share the same license provisions.
 
-<h3 id="Existing_File_Same_License">Existing File Same License</h3>
+<h4 id="Existing_File_Same_License">Existing File Same License</h4>
 
 "Existing File Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project.
 
@@ -348,7 +397,7 @@ If other projects were also used as components in your project, follow these rul
 
 If other projects were also used as components in your project, it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
-<h3 id="Lesser_Same_License">Lesser Same License</h3>
+<h4 id="Lesser_Same_License">Lesser Same License</h4>
 
 "Lesser Same License" means that when using this project your project must use the same license, but only for the original and/or modified content of this project, and creations derived from the original content.
 
@@ -367,7 +416,7 @@ In this context created or derived means building upon this project directly. No
 
 If other projects were also used as components in your project, it's important that their license does not require your entire project to use their license. For this project to be used in your project it must be allowed to keep its license.
 
-<h3 id="State_Changes">State Changes</h3>
+<h4 id="State_Changes">State Changes</h4>
 
 "State Changes" requires that any changes made to the project must be documented. The method to document these changes should be stored with the source code.
 
@@ -401,11 +450,11 @@ Another approach would be a dedicated document listing the modification informat
 
 While you have been given several examples of how to track your changes, the specific way that you decide to state the changes in your project is up to your discretion.
 
-<h3 id="Hide_Source">Hide Source</h3>
+<h4 id="Hide_Source">Hide Source</h4>
 
 "Hide Source" means that when the project is distributed the source code must **NOT** be made available or included.
 
-<h3 id="CLA">Contributor License Agreement</h3>
+<h4 id="CLA">Contributor License Agreement</h4>
 
 By contributing to this project, you agree to a "Contributor License Agreement". This license consists of the following:
 
@@ -429,25 +478,59 @@ This can also be accomplished by adding, or modifying current comments to fit, a
 
 ---
 
-<h3 id="Liability">Liability</h3>
+<h4 id="NDC">No Direct Copy</h4>
+
+This provision does not allow for this project to be used as the end product. You can not use the contents of this project as the end product or deliverable.
+
+This includes, but is not limited to, hosting this project as is, selling this project as is, and distributing this project as is. This project is to be used as a component, not as an end product. To use this project as the end product or deliverable significant deviations, additions, modifications, etc must be made to the project, to the point a reasonable person it would be consider it a derivative project.
+
+### Limitations
+
+<h4 id="Liability">Liability</h4>
 
 "Liability" means as follows:
 
 In no event shall the authors, copyright holders, maintainers, or any other party who modifies the project, and/or conveys the project as permitted above be liable and/or held responsible for any claim, damages, including any general, special, incidental, or consequential damages arising from the project, or other liability, whether in action of contract, tort or otherwise, arising from, out of, or in connection with the project, or other dealings of the project, even if the holder or other party has been advised of the possibility of such damages.
 
-<h3 id="Warranty">Warranty</h3>
+<h4 id="Warranty">Warranty</h4>
 
 "Warranty" means as follows:
 
 This project is provided as is without warranty of any kind, either expressed or implied. This includes, but is not limited to, warranties of merchantability and fitness for a particular purpose. The entirety of risk, including but not limited to, quality and performance of the project is entirely with you. Should any problems or damages arise you assume all costs in connection with this project or its use.
 
-<h3 id="NPU">No Patent Use</h3>
+<h4 id="NPU">No Patent Use</h4>
 
 This license does not grant permission to use patents of the Licensor and/or Contributors unless explicitly given permission.
 
-<h3 id="NTU">No Trademark Use</h3>
+<h4 id="NTU">No Trademark Use</h4>
 
 This license does not grant permission to use names, trade names, trademarks, service marks, product marks, and/or logos of the Licensor and/or Contributors to endorse or promote creations derived from this project without their explicit permission.
+
+<h4 id="NAI">No AI Training</h4>
+
+This license does not grant permission to use this project for algorithmic training purposes. This includes using this project's content as training data or any future applicable technology. This includes, but is not limited to, statistical learning, machine learning, deep learning, artificial intelligence, generative artificial intelligence, and large language models. In the event that new technologies come into existence that use input data to train output data the contents of this project can not be used as data for those algorithms, models, technologies, etc.
+
+<h4 id="NAIF">No AI Facilitation</h4>
+
+This license does not grant permission to use this project as part of the process in algorithmic training purposes. This includes using this project's content as training data or any future applicable technology. This includes, but is not limited to, statistical learning, machine learning, deep learning, artificial intelligence, generative artificial intelligence, and large language models. In the event that new technologies come into existence that use input data to train output data the contents of this project can not be used in the process.
+
+However, unless otherwise specifically stated this does not disallow this project to be used as training data. This provision only disallows for this project to be used in the toolchain of an algorithmic training model, or an applicable technology.
+
+For example, you can not use this project as part of a software or solution stack in a machine learning model.
+
+<h4 id="NHU">No Anti-Humanitarian Uses</h4>
+
+This project can not be used in any way that serves to put human life at risk. This includes direct risk and what a reasonable person would consider an indirect risk.
+
+For example, you can not use this project in a military vehicle used to engage in combat. However, you can use this project in a humanitarian aid vehicle.
+
+<h4 id="LR">License Revocation</h4>
+
+The Copyright Owner, Project Owner, Foundation, or Entity reserves the right to revoke the user's license at any time, unless there are separate agreed upon terms or agreements between the two parties.
+
+In order to for a user's license to be revoked all copyright owners must agree to the revocation, unless they've all agreed on another way to decide, such as a majority vote, an agreed upon lead decision maker of the project, or all contributors having a Contributor License Agreement with the project.
+
+If this provision is not granted the user can not have their license revoked, unless they break the provision of this license.
 
 ## Codes
 
@@ -467,6 +550,7 @@ The code is built in the following format:
 | Permission | Code |
 |---|---|
 | Commercial Use | C |
+| Special Commercial Use | Sc |
 | Donation | Do |
 | Distribution | D |
 | Modification | M |
@@ -476,12 +560,15 @@ The code is built in the following format:
 | Upgradability | U |
 | Multi-Licensing | Dl |
 | Trademark Use | T |
+| AI Use | A |
+| AI Facilitation | Af |
+| Anti-Humanitarian Uses | H |
 
 | Condition | Code |
 |---|---|
 | Disclose Source | Ds |
 | License and Copyright Notice | Lc |
-| License and Copyright Notice For Source | Lc |
+| License and Copyright Notice For Source | Ln |
 | Network Use Is Distribution | N |
 | Same License | Sl |
 | Existing File Same License | Sle |
@@ -489,6 +576,7 @@ The code is built in the following format:
 | State Changes | S |
 | Hide Source | H |
 | Contributor License Agreement | Cl |
+| No Direct Copy | Nc |
 
 | Limitation | Code |
 |---|---|
@@ -496,6 +584,10 @@ The code is built in the following format:
 | Warranty | W |
 | No Patent Use | Pn |
 | No Trademark Use | Tn |
+| No AI Training | An |
+| No AI Facilitation | Al |
+| No Anti-Humanitarian Uses | Hn |
+| License Revocation | Lr |
 
 ## License Generation Details
 
